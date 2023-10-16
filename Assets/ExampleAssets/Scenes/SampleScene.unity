@@ -796,11 +796,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 882073166}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 057ed136c042e094ea61ae3eaeab90ac, type: 3}
+  m_Script: {fileID: 11500000, guid: c79793bffeaea3e499ad0cf8f8a77528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_RaycastManager: {fileID: 388525034}
-  spawnablePrefab: {fileID: 5248562991652404467, guid: 4fc0479e937f6d145a5e088e0b84ce4c,
+  spawnablePrefab: {fileID: 7938351367506800831, guid: 592ee26df3c4a76409f4f5979d135996,
     type: 3}
   stat: {fileID: 40919614}
   cloth: {fileID: 1828601337}
@@ -808,7 +808,7 @@ MonoBehaviour:
   moving: 0
   time: 0
   duration: 2
-  movement_speed: 0.3
+  movement_speed: 3
   direction: -1
 --- !u!4 &882073168
 Transform:
