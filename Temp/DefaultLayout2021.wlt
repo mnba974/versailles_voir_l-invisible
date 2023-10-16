@@ -380,7 +380,7 @@ MonoBehaviour:
   m_LastFolders:
   - Packages/com.unity.learn.iet-framework.authoring
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\mnba9\stat versailles
+  m_LastProjectPath: D:\Etudes\Mines2A\MOVIE\versailles_voir_l-invisible
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
