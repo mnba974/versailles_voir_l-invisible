@@ -559,11 +559,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 388525029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e378c5b76b368b499d5313d153768ba, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ca32ea9d9a190f498df3dbd98653cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ArPrefabs:
-  - {fileID: 7938351367506800831, guid: 9bcbaee2fa5c2524a88d4d9a27f39dd8, type: 3}
+  - {fileID: 7938351367506800831, guid: 592ee26df3c4a76409f4f5979d135996, type: 3}
 --- !u!114 &388525033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,7 +576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: b43ddc716968e5d44a1fa50d2eb3f13d,
+  m_SerializedLibrary: {fileID: 11400000, guid: 2b3d446b975c8ed40a1400cf1d244a5d,
     type: 2}
   m_MaxNumberOfMovingImages: 0
   m_TrackedImagePrefab: {fileID: 0}
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 8804430640894281415, guid: adff0307d5d987a41882aa02c5a85899,
+  m_PlanePrefab: {fileID: 8804430640894281415, guid: 022c0e7bd02c9b744a6cb35036c0d906,
     type: 3}
   m_DetectionMode: -1
 --- !u!1 &705507993
