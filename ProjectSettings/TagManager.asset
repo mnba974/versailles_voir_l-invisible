@@ -3,15 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - spawnable
+  - ball
+  - cl
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ball
   - Water
   - UI
-  - 
+  - spawnable
   - 
   - 
   - 

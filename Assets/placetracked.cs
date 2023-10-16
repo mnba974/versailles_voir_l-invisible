@@ -56,27 +56,11 @@ public class PlaceTrackedImages : MonoBehaviour
                     var newPrefab = Instantiate(curPrefab, trackedImage.transform);
                     // Add the created prefab to our array
                     _instantiatedPrefabs[imageName] = newPrefab;
+                    this.enabled = false;
                 }
             }
         }
 
-        // For all prefabs that have been created so far, set them active or not depending
-        // on whether their corresponding image is currently being tracked
-        foreach (var trackedImage in eventArgs.updated)
-        {
-            _instantiatedPrefabs[trackedImage.referenceImage.name]
-                .SetActive(trackedImage.trackingState == TrackingState.Tracking);
-        }
 
-        // If the AR subsystem has given up looking for a tracked image
-        foreach (var trackedImage in eventArgs.removed)
-        {
-            // Destroy its prefab
-            Destroy(_instantiatedPrefabs[trackedImage.referenceImage.name]);
-            // Also remove the instance from our array
-            _instantiatedPrefabs.Remove(trackedImage.referenceImage.name);
-            // Or, simply set the prefab instance to inactive
-            //_instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(false);
-        }
     }
 }
