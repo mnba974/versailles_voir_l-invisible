@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 8512865976574342537}
   m_Layer: 3
   m_Name: "Statue b\xE2ch\xE9e"
-  m_TagString: ball
+  m_TagString: spawnable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

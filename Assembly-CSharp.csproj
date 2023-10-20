@@ -60,9 +60,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\cloth_script.cs" />
     <Compile Include="Assets\Scripts\placetracked.cs" />
+    <Compile Include="Assets\Scripts\scale.cs" />
     <Compile Include="Assets\Scripts\SpawnableManager.cs" />
     <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
     <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+    <Compile Include="Assets\Scripts\scroll.cs" />
     <Compile Include="Assets\Scripts\sphere_script.cs" />
   </ItemGroup>
   <ItemGroup>
