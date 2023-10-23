@@ -56,11 +56,15 @@ public class PlaceTrackedImages : MonoBehaviour
                     var newPrefab = Instantiate(curPrefab, trackedImage.transform);
                     // Add the created prefab to our array
                     _instantiatedPrefabs[imageName] = newPrefab;
-                    this.enabled = false;
+                    
                 }
             }
         }
-
-
+        foreach (var trackedImage in eventArgs.updated)
+        {
+            var imageName = trackedImage.referenceImage.name;
+            _instantiatedPrefabs[imageName].transform.position = trackedImage.transform.position + new Vector3(0,0,0.5f);
+        }
+        
     }
 }
