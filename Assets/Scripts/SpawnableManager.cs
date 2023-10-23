@@ -60,7 +60,7 @@ public class SpawnableManager : MonoBehaviour
         spawnablePrefab = spawnables[0];
         spawnedObject = null;
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>();
-        mode = "place";
+        mode = "null";
         scrollrot = GameObject.Find("rotation").GetComponent<Scrollbar>();
         scrollscale = GameObject.Find("scale").GetComponent<Scrollbar>();
 
