@@ -27,3 +27,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: "Statue b\xE2ch\xE9e"
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5724199472057736495
+      m_GuidHigh: 5930908684571590278
+    m_SerializedTextureGuid:
+      m_GuidLow: 12395120973825669466
+      m_GuidHigh: 17509960751248887768
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: achelous
+    m_Texture: {fileID: 0}
