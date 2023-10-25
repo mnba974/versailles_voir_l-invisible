@@ -10,8 +10,14 @@ public class Quizz_correctAnswer : MonoBehaviour
 
     public void CorrrectAnswer()
     {
-        // if(ce bouton = bonne réponse)...
         tiroirAnim.SetTrigger("openTiroir");
         Instantiate(prefabToSpawn, tiroirTransf);
+
+        // + anim, écran "Bonne réponse"
+    }
+
+    public void WrongAnswer()
+    {
+        // Do something
     }
 }
