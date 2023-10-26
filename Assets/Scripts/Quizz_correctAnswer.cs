@@ -8,22 +8,10 @@ public class Quizz_correctAnswer : MonoBehaviour
     public Transform tiroirTransf;
     public GameObject prefabToSpawn;
 
-    public GameObject QAPanel;
-    public GameObject CAPanel;
-    public GameObject WAPanel;
-
     public void CorrrectAnswer()
     {
+        // if(ce bouton = bonne réponse)...
         tiroirAnim.SetTrigger("openTiroir");
         Instantiate(prefabToSpawn, tiroirTransf);
-
-        QAPanel.SetActive(false);
-        CAPanel.SetActive(true);
-    }
-
-    public void WrongAnswer()
-    {
-        QAPanel.SetActive(false);
-        WAPanel.SetActive(true);
     }
 }
