@@ -12,10 +12,10 @@ public class Quizz_Answers : MonoBehaviour
 
     public void CorrrectAnswer()
     {
-        tiroirAnim.SetTrigger("openTiroir");
-
         QAPanel.SetActive(false);
         CAPanel.SetActive(true);
+
+        tiroirAnim.SetTrigger("openTiroir");
     }
 
     public void WrongAnswer()
