@@ -14,8 +14,7 @@ public class SpawnableManager : MonoBehaviour
     Camera arCam;
     GameObject spawnedObject;
 
-    public GameObject stat;
-    public TMP_Text cloth;
+    
 
     public Scrollbar scrollrot;
     public Scrollbar scrollscale;
