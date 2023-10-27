@@ -69,6 +69,7 @@
     <Compile Include="Assets\statue_still.cs" />
     <Compile Include="Assets\Scripts\scroll.cs" />
     <Compile Include="Assets\Scripts\sphere_script.cs" />
+    <Compile Include="Assets\Scripts\WheatColorChange.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
