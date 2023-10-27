@@ -300,7 +300,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.59
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -358,6 +358,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2144182854705641846}
     m_Modifications:
+    - target: {fileID: 233375811772359055, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000072394414
+      objectReference: {fileID: 0}
+    - target: {fileID: 233375811772359055, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 106.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 233375811772359055, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -78.00003
+      objectReference: {fileID: 0}
+    - target: {fileID: 339963654819830160, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: 'B : un Aigle'
+      objectReference: {fileID: 0}
     - target: {fileID: 507327716462149491, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -381,7 +401,7 @@ PrefabInstance:
     - target: {fileID: 507327716462149491, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CorrrectAnswer
+      value: WrongAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 507327716462149491, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
@@ -392,6 +412,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 968051853900617250, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.92045
+      objectReference: {fileID: 0}
+    - target: {fileID: 968051853900617250, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8180728
+      objectReference: {fileID: 0}
+    - target: {fileID: 968051853900617250, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.92045
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277577358170825845, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277577358170825845, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277577358170825845, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544397069378764189, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 399
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544397069378764189, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811027971987630772, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: 'C : un Taureau'
       objectReference: {fileID: 0}
     - target: {fileID: 2982539416486686548, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
@@ -428,10 +493,65 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3810477360277502064, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810477360277502064, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810477360277502064, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071253610349850132, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135584327894724189, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: 'D : un Arbre'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268330155695251221, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268330155695251221, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268330155695251221, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678217105678260359, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: 'A : un Lion'
+      objectReference: {fileID: 0}
     - target: {fileID: 5124340833800672025, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_Name
       value: Quizz_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392341331251753611, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392341331251753611, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -78
       objectReference: {fileID: 0}
     - target: {fileID: 5500725257294023075, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
@@ -498,6 +618,74 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5521620537350055363, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: "Lors de son combat contre H\xE9racl\xE8s, quelle forme a pris Ach\xE9lo\xFCs
+        ?\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.933146
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.4927921
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587866552854487748, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: "C'\xE9tait la r\xE9ponse C :\nAch\xE9lo\xFCs s'est transform\xE9 en
+        taureau"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 23.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 23.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: "Bravo !\n\nC'est la bonne r\xE9ponse :)\n\nAch\xE9lo\xFCs s'est bien
+        transform\xE9 en taureau"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 23
+      objectReference: {fileID: 0}
     - target: {fileID: 6962653130661008384, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -556,7 +744,7 @@ PrefabInstance:
     - target: {fileID: 8456408949771715865, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: WrongAnswer
+      value: CorrrectAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 8456408949771715865, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
