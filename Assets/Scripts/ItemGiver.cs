@@ -5,6 +5,7 @@ using UnityEngine.XR.ARFoundation;
 
 public class ItemGiver : MonoBehaviour
 {
+    public ItemSO itemToGive;
     public Inventory inventory;
 
     [SerializeField] ARRaycastManager m_RaycastManager;
@@ -14,7 +15,6 @@ public class ItemGiver : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>();
     }
 
@@ -34,14 +34,14 @@ public class ItemGiver : MonoBehaviour
             {
                 if (Physics.Raycast(ray, out hit))
                 {
-                    if (hit.collider.gameObject.tag == "Item")
+                    if (hit.collider.gameObject == gameObject)
                     {
-                        inventory.AddItem(hit.collider.gameObject);
-                        Destroy(hit.collider.gameObject);
+                        inventory.AddItem(itemToGive);
+                        Destroy(gameObject);
                     }
                 }
 
             }
         }
-    }
+    }        
 }
