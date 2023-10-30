@@ -1420,8 +1420,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ArPrefabs:
+<<<<<<< Updated upstream
   - {fileID: 7938351367506800831, guid: 592ee26df3c4a76409f4f5979d135996, type: 3}
   - {fileID: 1624245162828243916, guid: 101dba23f2cc63b4c8cf5fc2b59ac66c, type: 3}
+=======
+  - {fileID: 5248562991652404467, guid: 3d42b941ec0e14d4ab19e48a2a30ae23, type: 3}
+  - {fileID: 8710315099689196365, guid: 101dba23f2cc63b4c8cf5fc2b59ac66c, type: 3}
+>>>>>>> Stashed changes
 --- !u!114 &388525033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6679,4 +6684,9 @@ SceneRoots:
   - {fileID: 1002467001}
   - {fileID: 273752198}
   - {fileID: 395108803}
+<<<<<<< Updated upstream
   - {fileID: 1868590105}
+=======
+  - {fileID: 202945026}
+  - {fileID: 742554562}
+>>>>>>> Stashed changes
