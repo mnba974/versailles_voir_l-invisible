@@ -6,8 +6,8 @@ using TMPro;
 public class Inventory : MonoBehaviour
 {
     public List<GameObject> prefabList = new List<GameObject>();
-    public TextMeshProUGUI ItemsPanel;
-    public GameObject InventoryPanel;
+    // public TextMeshProUGUI ItemsPanel;
+    // public GameObject InventoryPanel;
     
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class Inventory : MonoBehaviour
     public void AddItem(GameObject GOToAdd)
     {
         prefabList.Add(GOToAdd);
-        InventoryPanel.SetActive(true);
-        ItemsPanel.text = GOToAdd.name;
+        // InventoryPanel.SetActive(true);
+        // ItemsPanel.text = GOToAdd.name;
     }
 }

@@ -7,6 +7,7 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class PlaceTrackedImages : MonoBehaviour
 {
+    public GameObject text;
     // Reference to AR tracked image manager component
     private ARTrackedImageManager _trackedImagesManager;
 
@@ -55,12 +56,20 @@ public class PlaceTrackedImages : MonoBehaviour
                     // Instantiate the prefab, parenting it to the ARTrackedImage
                     var newPrefab = Instantiate(curPrefab);
                     // Add the created prefab to our array
+                    newPrefab.transform.position = trackedImage.transform.position;
                     _instantiatedPrefabs[imageName] = newPrefab;
+                    text.SetActive(true);
                     
                 }
             }
         }
-        
-        
-    }
+        foreach (var trackedImage in eventArgs.updated)
+        {
+            var imageName = trackedImage.referenceImage.name;
+            _instantiatedPrefabs[imageName].transform.position = trackedImage.transform.position;
+            _instantiatedPrefabs[imageName].transform.rotation = Quaternion.Euler(0, trackedImage.transform.rotation.eulerAngles.y +180, 0);
+        }
+
+
+        }
 }
