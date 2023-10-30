@@ -7,8 +7,6 @@ TagManager:
   - spawnable
   - ball
   - cl
-  - Inventory
-  - Item
   layers:
   - Default
   - TransparentFX
