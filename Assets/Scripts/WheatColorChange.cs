@@ -4,9 +4,9 @@ using UnityEngine;
 public class WheatColorChange : MonoBehaviour
 {
     public Renderer objectRenderer;  // Reference to the object's renderer
-    public float brightnessChangeSpeed = 0.1f;  // Speed of brightness change
+    public float brightnessChangeSpeed = 0.7f;  // Speed of brightness change
     public float Brightness = 0.5f;  // Target brightness (adjust as needed)
-    public float MaxBrightness = 0.7f;
+    public float MaxBrightness = 1.0f;
     public float MinBrightness = 0.3f;
 
     private Material originalMaterial;  // Store the original material
