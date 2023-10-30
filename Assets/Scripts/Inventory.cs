@@ -21,8 +21,7 @@ public class Inventory : MonoBehaviour
 
     public void AddItem(ItemSO itemToAdd)
     {
-        //inventory.Add(ItemToAdd.itemName, ItemToAdd);
-        Transform item = content.transform.Find(itemToAdd.itemName);
+        GameObject item = content.transform.Find(itemToAdd.itemName).gameObject;
         if (item != null)
         {
             item.GetComponentInChildren<Image>().sprite = itemToAdd.itemSprite;

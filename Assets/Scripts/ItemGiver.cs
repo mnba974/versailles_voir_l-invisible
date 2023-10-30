@@ -16,6 +16,7 @@ public class ItemGiver : MonoBehaviour
     void Start()
     {
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>();
+        inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
     }
 
     // Update is called once per frame
