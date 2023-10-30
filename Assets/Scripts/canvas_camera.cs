@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class canvas_prefab : MonoBehaviour
+public class canvas_camera : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
