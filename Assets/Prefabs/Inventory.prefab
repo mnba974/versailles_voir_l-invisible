@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abf12e12ea68af240b6308183af8a314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1d8a423dcf45e04bb26799dd64529a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -360,8 +360,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278535270
-  m_fontColor: {r: 0.40000004, g: 0.26666668, b: 0.019607844, a: 1}
+    rgba: 4279318120
+  m_fontColor: {r: 0.40784314, g: 0.21176471, b: 0.06666667, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -485,7 +485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abf12e12ea68af240b6308183af8a314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1d8a423dcf45e04bb26799dd64529a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -560,7 +560,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abf12e12ea68af240b6308183af8a314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1d8a423dcf45e04bb26799dd64529a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -645,8 +645,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278247935
-  m_fontColor: {r: 1, g: 0.88235295, b: 0, a: 1}
+    rgba: 4290308342
+  m_fontColor: {r: 0.9647059, g: 0.9098039, b: 0.72156864, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abf12e12ea68af240b6308183af8a314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1d8a423dcf45e04bb26799dd64529a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abf12e12ea68af240b6308183af8a314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1d8a423dcf45e04bb26799dd64529a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -931,8 +931,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278535270
-  m_fontColor: {r: 0.40000004, g: 0.26666668, b: 0.019607844, a: 1}
+    rgba: 4279318120
+  m_fontColor: {r: 0.40784314, g: 0.21176471, b: 0.06666667, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1056,7 +1056,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abf12e12ea68af240b6308183af8a314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1d8a423dcf45e04bb26799dd64529a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1216,7 +1216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abf12e12ea68af240b6308183af8a314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1d8a423dcf45e04bb26799dd64529a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1293,7 +1293,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4a1acea6eaeda464181273812f1c59b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5bb09e200c45daa46acb1d56b877a7fe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1448,7 +1448,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abf12e12ea68af240b6308183af8a314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1d8a423dcf45e04bb26799dd64529a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1523,7 +1523,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abf12e12ea68af240b6308183af8a314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1d8a423dcf45e04bb26799dd64529a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1598,7 +1598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abf12e12ea68af240b6308183af8a314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1d8a423dcf45e04bb26799dd64529a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1669,7 +1669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.73341477, b: 0, a: 1}
+  m_Color: {r: 0.93333334, g: 0.78039217, b: 0.43529412, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1753,7 +1753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1f1f12ce57c87cb408a02bbb96dccdf2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24e214f5b5e281b4f87db8538899a19d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1953,7 +1953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.9647059, g: 0.9098039, b: 0.72156864, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
