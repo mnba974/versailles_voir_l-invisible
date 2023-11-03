@@ -31,9 +31,29 @@ MonoBehaviour:
       m_GuidLow: 4991775535069332554
       m_GuidHigh: 14194073503922937780
     m_SerializedTextureGuid:
-      m_GuidLow: 3424011486392408249
-      m_GuidHigh: 17614950793658878779
-    m_Size: {x: 0.2, y: 0.13541043}
+      m_GuidLow: 12066290550867330139
+      m_GuidHigh: 15411536191987718969
+    m_Size: {x: 0.2, y: 0.14872798}
     m_SpecifySize: 1
     m_Name: Achelous 1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4950355098288734379
+      m_GuidHigh: 237463469199069619
+    m_SerializedTextureGuid:
+      m_GuidLow: 7823957714090814707
+      m_GuidHigh: 4402204947878418696
+    m_Size: {x: 0.2, y: 0.16142061}
+    m_SpecifySize: 1
+    m_Name: bacchante
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4760943582964891066
+      m_GuidHigh: 17341420310868154803
+    m_SerializedTextureGuid:
+      m_GuidLow: 1892869116622235561
+      m_GuidHigh: 13849511235333419914
+    m_Size: {x: 0.2, y: 0.15162162}
+    m_SpecifySize: 1
+    m_Name: ceres
     m_Texture: {fileID: 0}
