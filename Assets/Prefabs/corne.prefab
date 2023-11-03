@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5790def6d7d4a5a4ca43cbf2af5126ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemToGive: {fileID: 11400000, guid: c4b96327b26169f468b9fbc5009d8274, type: 2}
+  itemToGive: {fileID: 11400000, guid: 85ca6ac399c38d54abf9dcf093729707, type: 2}
   inventory: {fileID: 0}
   m_RaycastManager: {fileID: 0}
 --- !u!1 &4952697086149087033

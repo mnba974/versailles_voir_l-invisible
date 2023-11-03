@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\cloth_script.cs" />
     <Compile Include="Assets\Scripts\orientation.cs" />
     <Compile Include="Assets\Scripts\placetracked.cs" />
+    <Compile Include="Assets\Scripts\canvas_prefab.cs" />
     <Compile Include="Assets\Scripts\Scene_loader.cs" />
     <Compile Include="Assets\Scripts\screen_orientation.cs" />
     <Compile Include="Assets\Scripts\scale.cs" />
@@ -98,6 +99,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Magic Effects\Shaders\Ice.shader" />
     <None Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
+    <None Include="Assets\Textures\NewSurfaceShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />

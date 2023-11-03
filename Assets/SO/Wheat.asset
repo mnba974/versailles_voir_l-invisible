@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Wheat
   m_EditorClassIdentifier: 
   itemName: Wheat
-  prefab: {fileID: 5248562991652404467, guid: 3d42b941ec0e14d4ab19e48a2a30ae23, type: 3}
+  prefab: {fileID: 8262324663238165525, guid: b731f873a4e85e442b2adf36282fea78, type: 3}
   itemSprite: {fileID: 21300000, guid: bc2aa5c6c1b544a4aa44d43d42251ae0, type: 3}
-  description: ...
+  description: "Un \xE9pis de bl\xE9..."
