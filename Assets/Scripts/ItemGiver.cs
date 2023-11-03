@@ -6,7 +6,7 @@ using UnityEngine.XR.ARFoundation;
 public class ItemGiver : MonoBehaviour
 {
     public ItemSO itemToGive;
-    public Inventory inventory;
+    private Inventory inventory;
 
     [SerializeField] ARRaycastManager m_RaycastManager;
     List<ARRaycastHit> m_Hits = new List<ARRaycastHit>();

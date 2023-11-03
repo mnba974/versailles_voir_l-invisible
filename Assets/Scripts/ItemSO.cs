@@ -6,6 +6,7 @@ using UnityEngine;
 public class ItemSO : ScriptableObject
 {
     public string itemName;
+    public bool discovered = false;
     public GameObject prefab;
     public Sprite itemSprite;
     [TextArea]
