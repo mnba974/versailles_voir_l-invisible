@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\cloth_script.cs" />
     <Compile Include="Assets\Scripts\orientation.cs" />
     <Compile Include="Assets\Scripts\placetracked.cs" />
+    <Compile Include="Assets\Scripts\Scene_loader.cs" />
     <Compile Include="Assets\Scripts\screen_orientation.cs" />
     <Compile Include="Assets\Scripts\scale.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\Scripts\debug.cs" />
     <Compile Include="Assets\Scripts\lowplane.cs" />
+    <Compile Include="Assets\Scripts\ItemSO.cs" />
     <Compile Include="Assets\Scripts\Quizz_Answers.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\scroll.cs" />
