@@ -7,11 +7,12 @@ TagManager:
   - spawnable
   - ball
   - cl
+  - Inventory
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - ball
+  - Items
   - Water
   - UI
   - spawnable

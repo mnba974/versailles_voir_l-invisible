@@ -47,13 +47,16 @@ public class Inventory : MonoBehaviour
             Transform explications = showPanel.transform.Find("Explications");
             explications.GetComponent<TextMeshProUGUI>().text = itemToShow.description;
 
-            Instantiate(itemToShow.prefab, showPanel.transform);
-        }
+            GameObject prefab = Instantiate(itemToShow.prefab);
+            prefab.transform.position = new Vector3(0, 0, 0);
+            prefab.transform.SetParent(showPanel.transform, false);
+            prefab.name = "UI_OBJ";
+         }
     }
 
     public void HideItem()
     {
-        Transform lastChild = showPanel.transform.GetChild(-1);
+        GameObject lastChild = showPanel.transform.GetChild(showPanel.transform.childCount- 1).gameObject;
 
         if (lastChild.name != "Explications")
         {
