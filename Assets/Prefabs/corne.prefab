@@ -1292,7 +1292,7 @@ GameObject:
   - component: {fileID: 4477718416234621078}
   - component: {fileID: 5616080597749310202}
   - component: {fileID: 7078577825856859740}
-  - component: {fileID: 6411734656066174407}
+  - component: {fileID: 5226918437705516656}
   m_Layer: 3
   m_Name: corne
   m_TagString: Untagged
@@ -1350,8 +1350,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.3966875, y: 1.7937405, z: 1.4580112}
-  m_Center: {x: -0.19074154, y: 0.39687037, z: 0.084846854}
+  m_Size: {x: 6.228203, y: 2.7403133, z: 2.837716}
+  m_Center: {x: -0.47089598, y: 0.2154341, z: -0.06447296}
 --- !u!114 &5616080597749310202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotSpeed: 0.1
   rb: {fileID: 0}
---- !u!54 &6411734656066174407
+--- !u!54 &5226918437705516656
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1390,7 +1390,7 @@ Rigidbody:
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.5
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}

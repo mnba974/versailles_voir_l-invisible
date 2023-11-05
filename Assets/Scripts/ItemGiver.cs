@@ -12,12 +12,15 @@ public class ItemGiver : MonoBehaviour
     List<ARRaycastHit> m_Hits = new List<ARRaycastHit>();
     Camera arCam;
 
+    
     // Start is called before the first frame update
     void Start()
     {
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>();
         inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
         m_RaycastManager = GameObject.Find("AR Session Origin").GetComponent<ARRaycastManager>();
+        
+        
     }
 
     // Update is called once per frame
@@ -38,6 +41,7 @@ public class ItemGiver : MonoBehaviour
                 {
                     if (hit.collider.gameObject == gameObject)
                     {
+                        
                         inventory.AddItem(itemToGive);
                         Destroy(gameObject);
                     }

@@ -62,9 +62,11 @@
     <Compile Include="Assets\Scripts\orientation.cs" />
     <Compile Include="Assets\Scripts\placetracked.cs" />
     <Compile Include="Assets\Scripts\ObjectDisappearance.cs" />
+    <Compile Include="Assets\Scripts\ResetScript.cs" />
     <Compile Include="Assets\Scripts\canvas_prefab.cs" />
     <Compile Include="Assets\Scripts\Scene_loader.cs" />
     <Compile Include="Assets\Scripts\RotateInUI.cs" />
+    <Compile Include="Assets\detectéScript.cs" />
     <Compile Include="Assets\Scripts\screen_orientation.cs" />
     <Compile Include="Assets\Scripts\scale.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
     <Compile Include="Assets\Scripts\ItemGiver.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
+    <Compile Include="Assets\Scripts\PandorAnim.cs" />
     <Compile Include="Assets\Scripts\debug.cs" />
     <Compile Include="Assets\Scripts\lowplane.cs" />
     <Compile Include="Assets\Scripts\ItemSO.cs" />

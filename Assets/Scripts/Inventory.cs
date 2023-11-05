@@ -11,10 +11,11 @@ public class Inventory : MonoBehaviour
     public GameObject inventoryPanel;
     public GameObject backButton;
 
+    
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -26,8 +27,10 @@ public class Inventory : MonoBehaviour
     public void AddItem(ItemSO itemToAdd)
     {
         Transform item = content.transform.Find(itemToAdd.itemName);
+        
         if (item != null)
         {
+            
             item.GetChild(0).GetComponent<Image>().sprite = itemToAdd.itemSprite;
             itemToAdd.discovered = true;
         }

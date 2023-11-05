@@ -12,11 +12,14 @@ public class RotateInUI : MonoBehaviour
     
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
         if (gameObject.name != "UI_OBJ")
         {
+            Destroy(rb);
             this.enabled = false;
+            
         }
-        rb = GetComponent<Rigidbody>();
+        
         
     }
 
@@ -28,10 +31,7 @@ public class RotateInUI : MonoBehaviour
             return;
         }
         touch = Input.GetTouch(0);
-        if (touch.phase == TouchPhase.Began)
-        {
-            rb.angularVelocity = Vector3.zero;
-        }
+        
         if (touch.phase != TouchPhase.Moved)
         {
             rb.angularVelocity = new Vector3(touch.deltaPosition.y * rotSpeed, -touch.deltaPosition.x * rotSpeed, 0f);
