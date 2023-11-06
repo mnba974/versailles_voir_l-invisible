@@ -64,8 +64,8 @@
     <Compile Include="Assets\Scripts\ObjectDisappearance.cs" />
     <Compile Include="Assets\Scripts\ResetScript.cs" />
     <Compile Include="Assets\Scripts\canvas_prefab.cs" />
+    <Compile Include="Assets\Scripts\detectéScript.cs" />
     <Compile Include="Assets\Scripts\Scene_loader.cs" />
-    <Compile Include="Assets\detectéScript.cs" />
     <Compile Include="Assets\Scripts\RotateInUI.cs" />
     <Compile Include="Assets\Scripts\screen_orientation.cs" />
     <Compile Include="Assets\Scripts\scale.cs" />

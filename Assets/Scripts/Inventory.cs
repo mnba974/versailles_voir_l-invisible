@@ -51,8 +51,11 @@ public class Inventory : MonoBehaviour
             explications.GetComponent<TextMeshProUGUI>().text = itemToShow.description;
 
             GameObject prefab = Instantiate(itemToShow.prefab);
-            prefab.transform.position = new Vector3(0, 0, 0);
-            prefab.transform.SetParent(showPanel.transform, false);
+            
+            prefab.transform.SetParent(showPanel.transform, true);
+            prefab.transform.localPosition = Vector3.zero;
+            float scale = itemToShow.UIScale;
+            prefab.transform.localScale = new Vector3(scale, scale, scale);
             prefab.name = "UI_OBJ";
          }
     }

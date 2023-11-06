@@ -4743,6 +4743,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 874211011}
     m_Modifications:
+    - target: {fileID: 254234590127205385, guid: 6582a12324580ce40af2dbe888da2db6,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 946500847914785232, guid: 6582a12324580ce40af2dbe888da2db6,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4842,6 +4847,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185749488874700893, guid: 6582a12324580ce40af2dbe888da2db6,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185749488874700893, guid: 6582a12324580ce40af2dbe888da2db6,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185749488874700893, guid: 6582a12324580ce40af2dbe888da2db6,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185749488874700893, guid: 6582a12324580ce40af2dbe888da2db6,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9188533268638538551, guid: 6582a12324580ce40af2dbe888da2db6,
         type: 3}
