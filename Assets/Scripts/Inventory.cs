@@ -9,7 +9,7 @@ public class Inventory : MonoBehaviour
     public GameObject content;
     public GameObject showPanel;
     public GameObject inventoryPanel;
-    public GameObject backButton;
+    //public GameObject backButton;
 
     
     // Start is called before the first frame update

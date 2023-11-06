@@ -5,7 +5,7 @@ using UnityEngine;
 public class Quizz_Answers : MonoBehaviour
 {
     public Animator tiroirAnim;
-
+    public string animName;
     public GameObject QAPanel;
     public GameObject CAPanel;
     public GameObject WAPanel;
@@ -15,7 +15,7 @@ public class Quizz_Answers : MonoBehaviour
         QAPanel.SetActive(false);
         CAPanel.SetActive(true);
 
-        tiroirAnim.SetTrigger("openTiroir");
+        tiroirAnim.SetTrigger(animName);
     }
 
     public void WrongAnswer()
