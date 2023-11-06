@@ -136,6 +136,31 @@ PrefabInstance:
       propertyPath: simulationSpeed
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 7795984865410868369, guid: f486ae8d82fc0f749807f50c64e5f744,
+        type: 3}
+      propertyPath: ShapeModule.type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7795984865410868369, guid: f486ae8d82fc0f749807f50c64e5f744,
+        type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7990344010903973363, guid: f486ae8d82fc0f749807f50c64e5f744,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1213827
+      objectReference: {fileID: 0}
+    - target: {fileID: 7990344010903973363, guid: f486ae8d82fc0f749807f50c64e5f744,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7727056
+      objectReference: {fileID: 0}
+    - target: {fileID: 7990344010903973363, guid: f486ae8d82fc0f749807f50c64e5f744,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.12228274
+      objectReference: {fileID: 0}
     - target: {fileID: 7990344010903973363, guid: f486ae8d82fc0f749807f50c64e5f744,
         type: 3}
       propertyPath: m_LocalPosition.x

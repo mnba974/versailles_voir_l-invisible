@@ -5,10 +5,15 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pandore_LOD0_u0_v0
+    second: {fileID: 2100000, guid: 4298463444dc8c543a9f1028f2ad6f91, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: pandore_LOD0_u0_v0_diffuse
-    second: {fileID: 2800000, guid: f0014e27800036a438885b64d427b081, type: 3}
+    second: {fileID: 2800000, guid: c3505c25ce2927b459f6c0601fb0cc36, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
