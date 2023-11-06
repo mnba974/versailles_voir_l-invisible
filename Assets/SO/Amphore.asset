@@ -15,6 +15,6 @@ MonoBehaviour:
   itemName: Amphore
   discovered: 0
   prefab: {fileID: 0}
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 309a8b7d195707e4c8c0d7b516d81c8a, type: 3}
   description: 
   UIScale: 0
