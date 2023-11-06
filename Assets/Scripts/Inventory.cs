@@ -42,7 +42,7 @@ public class Inventory : MonoBehaviour
         {
             inventoryPanel.SetActive(false);
             showPanel.SetActive(true);
-            backButton.SetActive(true);
+            // backButton.SetActive(true);
 
             Transform nom = showPanel.transform.Find("Nom");
             nom.GetComponent<TextMeshProUGUI>().text = itemToShow.itemName;
