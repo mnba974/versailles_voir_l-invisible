@@ -52,14 +52,14 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.23750174
-  m_Height: 1.2325934
+  m_Radius: 0.09191733
+  m_Height: 0.9963814
   m_Direction: 1
-  m_Center: {x: 0.0033227801, y: 0.5416103, z: 0}
+  m_Center: {x: -0.02177903, y: 0.5230673, z: -0.033482425}
 --- !u!114 &5376258266373806052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -861,6 +861,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9184281412588666527}
     m_Modifications:
+    - target: {fileID: 1373171123188330778, guid: 4798fd6a77e5dc344ad7e44e61dbd939,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373484594781196528, guid: 4798fd6a77e5dc344ad7e44e61dbd939,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3908868854703922882, guid: 4798fd6a77e5dc344ad7e44e61dbd939,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4743224727972602809, guid: 4798fd6a77e5dc344ad7e44e61dbd939,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -931,7 +946,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Potion
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5375188468774713603, guid: 4798fd6a77e5dc344ad7e44e61dbd939,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6957749915786018713, guid: 4798fd6a77e5dc344ad7e44e61dbd939,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579600249081387734, guid: 4798fd6a77e5dc344ad7e44e61dbd939,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458106285517382588, guid: 4798fd6a77e5dc344ad7e44e61dbd939,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2327865550183430715, guid: 4798fd6a77e5dc344ad7e44e61dbd939, type: 3}
+    - {fileID: 2959000550395449272, guid: 4798fd6a77e5dc344ad7e44e61dbd939, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -939,10 +976,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 394465801441684035}
-    - targetCorrespondingSourceObject: {fileID: 5375188468774713603, guid: 4798fd6a77e5dc344ad7e44e61dbd939,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4329579204333711861}
     - targetCorrespondingSourceObject: {fileID: 5375188468774713603, guid: 4798fd6a77e5dc344ad7e44e61dbd939,
         type: 3}
       insertIndex: -1
@@ -969,33 +1002,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.59100807, y: 3.0690048, z: 0.55038303}
   m_Center: {x: 0.020918237, y: 1.0345007, z: 0.08736147}
---- !u!65 &4329579204333711861
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1628069311984737213}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.8581378, y: 1.5568174, z: 1.4674752}
-  m_Center: {x: 0.007787239, y: -0.27840772, z: 0.009337124}
 --- !u!54 &9177853563894276504
 Rigidbody:
   m_ObjectHideFlags: 0

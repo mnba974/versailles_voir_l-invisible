@@ -11,5 +11,5 @@ public class ItemSO : ScriptableObject
     public Sprite itemSprite;
     [TextArea]
     public string description;
-    public float UIScale;
+    public float UIScale = 10;
 }

@@ -17,4 +17,4 @@ MonoBehaviour:
   prefab: {fileID: 0}
   itemSprite: {fileID: 0}
   description: 
-  UIScale: 0
+  UIScale: 1

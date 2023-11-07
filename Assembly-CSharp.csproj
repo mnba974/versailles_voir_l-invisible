@@ -68,7 +68,6 @@
     <Compile Include="Assets\Scripts\ResetScript.cs" />
     <Compile Include="Assets\Scripts\canvas_prefab.cs" />
     <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\UIButton_ShowNext.cs" />
-    <Compile Include="Assets\Switcher.cs" />
     <Compile Include="Assets\Scripts\detectéScript.cs" />
     <Compile Include="Assets\Scripts\Scene_loader.cs" />
     <Compile Include="Assets\Scripts\RotateInUI.cs" />
@@ -96,6 +95,7 @@
     <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\SuperCamera.cs" />
     <Compile Include="Assets\Scripts\scroll.cs" />
     <Compile Include="Assets\Scripts\sphere_script.cs" />
+    <Compile Include="Assets\Scripts\Switcher.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Scripts\WheatColorChange.cs" />
     <Compile Include="Assets\Scripts\statue_still.cs" />
