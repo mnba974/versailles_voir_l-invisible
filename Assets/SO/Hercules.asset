@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hercules
   m_EditorClassIdentifier: 
   itemName: Hercules
-  discovered: 0
+  discovered: 1
   prefab: {fileID: 0}
   itemSprite: {fileID: 0}
   description: 

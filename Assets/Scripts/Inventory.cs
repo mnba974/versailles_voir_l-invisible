@@ -9,7 +9,7 @@ public class Inventory : MonoBehaviour
     public GameObject content;
     public GameObject showPanel;
     public GameObject inventoryPanel;
-    //public GameObject backButton;
+    public GameObject backButton;
 
     
     // Start is called before the first frame update
@@ -41,8 +41,8 @@ public class Inventory : MonoBehaviour
         if (itemToShow.discovered)
         {
             inventoryPanel.SetActive(false);
+            backButton.SetActive(false);
             showPanel.SetActive(true);
-            // backButton.SetActive(true);
 
             Transform nom = showPanel.transform.Find("Nom");
             nom.GetComponent<TextMeshProUGUI>().text = itemToShow.itemName;
