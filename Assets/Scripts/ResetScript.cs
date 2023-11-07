@@ -29,9 +29,10 @@ public class ResetScript : MonoBehaviour
             item.discovered = false;
         }
         PlaceTrackedImages._instantiatedPrefabs.Clear();
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        PlaceRotate._instantiatedPrefabs.Clear();
         arsession.Reset();
+        SceneManager.LoadScene("Menu");
+        
         
     }
 }

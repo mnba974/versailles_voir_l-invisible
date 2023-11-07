@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 243797b153c04ed4e8161a70f84a17f5
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: cda2737cb0c8a8340b374037ff88fa78
+  - enabled: 1
+    path: Assets/Scenes/PlaceMode.unity
+    guid: 7c2e91eca03297f409c3a031efd58d96
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

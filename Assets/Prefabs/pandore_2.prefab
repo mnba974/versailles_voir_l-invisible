@@ -842,9 +842,10 @@ GameObject:
   - component: {fileID: 8135817636650083008}
   - component: {fileID: 7137932391505362991}
   - component: {fileID: 7147351873626723505}
+  - component: {fileID: 8404493191825076462}
   m_Layer: 0
   m_Name: pandore_2
-  m_TagString: Untagged
+  m_TagString: spawnable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -949,6 +950,29 @@ MonoBehaviour:
   QAPanel: {fileID: 8437850659372563064}
   CAPanel: {fileID: 9043178885862297647}
   WAPanel: {fileID: 2192374955178384639}
+--- !u!136 &8404493191825076462
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3498138941387906767}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.20371273
+  m_Height: 1.0952477
+  m_Direction: 1
+  m_Center: {x: -0.03386137, y: 0.5089855, z: 0}
 --- !u!1 &3579764207354794222
 GameObject:
   m_ObjectHideFlags: 0
