@@ -16,5 +16,6 @@ MonoBehaviour:
   discovered: 0
   prefab: {fileID: 4915565000051308718, guid: 092c19f2fa655b945b887ef610af0cac, type: 3}
   itemSprite: {fileID: 21300000, guid: 1772e2e15605d7743b3b418f4ce129ae, type: 3}
-  description: Les 5 solides de Platon...
+  description: "Ces 5 solides repr\xE9sentent les \xE9l\xE9ments : le feu, l'eau,
+    la terre, l'air et l'\xE9ther."
   UIScale: 30

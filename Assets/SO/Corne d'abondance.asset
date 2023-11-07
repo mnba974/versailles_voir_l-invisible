@@ -16,5 +16,5 @@ MonoBehaviour:
   discovered: 0
   prefab: {fileID: 4493932451273773915, guid: 17d825cc439b7444eb8a6ad54f8484ff, type: 3}
   itemSprite: {fileID: 21300000, guid: 4c6a851f04724024496dbce760320e41, type: 3}
-  description: La corne d'abondance...
+  description: Une corne qui ne se vide jamais...
   UIScale: 50
