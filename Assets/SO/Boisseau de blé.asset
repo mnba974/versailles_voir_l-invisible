@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Boisseau de bl\xE9"
   m_EditorClassIdentifier: 
   itemName: "Boisseau de bl\xE9"
-  discovered: 1
+  discovered: 0
   prefab: {fileID: 8262324663238165525, guid: b731f873a4e85e442b2adf36282fea78, type: 3}
   itemSprite: {fileID: 21300000, guid: bc2aa5c6c1b544a4aa44d43d42251ae0, type: 3}
   description: "Un \xE9pis de bl\xE9, repr\xE9sentatif de la d\xE9esse de l'agriculture."
