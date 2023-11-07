@@ -73,7 +73,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiroirAnim: {fileID: 7424506618626005850}
-  animName: openTiroir
+  animName: circe
   QAPanel: {fileID: 7555807022991083248}
   CAPanel: {fileID: 6970737989179272359}
   WAPanel: {fileID: 265214761470632055}
@@ -197,17 +197,17 @@ PrefabInstance:
     - target: {fileID: 6563772886237960684, guid: b22f060ff41561a4da456dfb7922fc48,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0132
       objectReference: {fileID: 0}
     - target: {fileID: 6563772886237960684, guid: b22f060ff41561a4da456dfb7922fc48,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0098
       objectReference: {fileID: 0}
     - target: {fileID: 6563772886237960684, guid: b22f060ff41561a4da456dfb7922fc48,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.056
       objectReference: {fileID: 0}
     - target: {fileID: 6563772886237960684, guid: b22f060ff41561a4da456dfb7922fc48,
         type: 3}
