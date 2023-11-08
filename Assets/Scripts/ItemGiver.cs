@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.UI;
 
 public class ItemGiver : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class ItemGiver : MonoBehaviour
     List<ARRaycastHit> m_Hits = new List<ARRaycastHit>();
     Camera arCam;
 
+    public GameObject objetDecouvert;
     
     // Start is called before the first frame update
     void Start()
@@ -19,8 +21,6 @@ public class ItemGiver : MonoBehaviour
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>();
         inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
         m_RaycastManager = GameObject.Find("AR Session Origin").GetComponent<ARRaycastManager>();
-        
-        
     }
 
     // Update is called once per frame
@@ -41,9 +41,12 @@ public class ItemGiver : MonoBehaviour
                 {
                     if (hit.collider.gameObject == gameObject)
                     {
-                        
                         inventory.AddItem(itemToGive);
                         Destroy(gameObject);
+
+                        Transform item = objetDecouvert.transform.GetChild(0);
+                        item.GetComponent<Image>().sprite = itemToGive.itemSprite;
+                        objetDecouvert.GetComponent<Animator>().SetTrigger("objet");
                     }
                 }
 
