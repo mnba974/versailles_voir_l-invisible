@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class PlaceTrackedImages : MonoBehaviour
@@ -19,6 +20,9 @@ public class PlaceTrackedImages : MonoBehaviour
 
     // Keep dictionary array of created prefabs
     public static Dictionary<string, GameObject> _instantiatedPrefabs = new Dictionary<string, GameObject>();
+
+
+    public GameObject buttonsPanel;
 
     void Awake()
     {
@@ -68,7 +72,13 @@ public class PlaceTrackedImages : MonoBehaviour
                     newPrefab.transform.position = trackedImage.transform.position;
                     _instantiatedPrefabs[imageName] = newPrefab;
                     text.SetActive(true);
-                    
+
+                    Transform button = buttonsPanel.transform.Find(imageName);
+
+                    if (button != null)
+                    {
+                        button.GetComponent<Image>().color = Color.white;
+                    }
                 }
             }
         }
