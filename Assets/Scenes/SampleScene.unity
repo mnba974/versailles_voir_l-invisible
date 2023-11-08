@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2938,6 +2938,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7415475118882920459, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415475118882920459, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7529581549505045583, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -4363,7 +4375,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.9000244, y: 1.0999999}
+  m_AnchoredPosition: {x: 1.9000244, y: 1.1000004}
   m_SizeDelta: {x: 0, y: -0.00000011920929}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1127095034
@@ -5401,6 +5413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ca32ea9d9a190f498df3dbd98653cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: -0.5}
   detect: {fileID: 1735593806}
   text: {fileID: 0}
   ArPrefabs:

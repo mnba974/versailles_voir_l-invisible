@@ -77,6 +77,7 @@ public class PlaceRotate : MonoBehaviour
             }
         }
         
+
     }
     
 
@@ -100,6 +101,7 @@ public class PlaceRotate : MonoBehaviour
                     if (prefab != null)
                     {
                         SpawnPrefab(m_Hits[0].pose.position);
+                        
                     }
 
                     else if (hit.collider.gameObject.tag == "spawnable")

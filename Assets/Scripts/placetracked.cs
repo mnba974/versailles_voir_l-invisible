@@ -7,6 +7,7 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class PlaceTrackedImages : MonoBehaviour
 {
+    public Vector3 offset;
     public GameObject detect;
     public GameObject text;
     // Reference to AR tracked image manager component

@@ -3,7 +3,32 @@ guid: 5abe7d8d04b4de14aa65e957cf36799a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_0
+    second: {fileID: 2100000, guid: bdb2b1cd117bfea448faff236665f3d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrel
+    second: {fileID: 2100000, guid: 074dd57c11bfecf4fb3f7bce66e6b46f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: diogene_LOD0_u0_v0
+    second: {fileID: 2100000, guid: 334cd4da97647ef48ac62e27f687ddc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup.001
+    second: {fileID: 2100000, guid: 45ba46502912d8d49a3f6c1d35fc220b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup.002
+    second: {fileID: 2100000, guid: 76f2dc1812821504a9bdccfc36a667b1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
