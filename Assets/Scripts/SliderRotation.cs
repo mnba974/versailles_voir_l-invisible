@@ -19,6 +19,11 @@ public class SliderRotation : MonoBehaviour
     
     public void ChnagedValue()
     {
+        if (statue != PlaceRotate.lastPrefab)
+        {
+            statue = PlaceRotate.lastPrefab;
+            scrollrot.value = statue.transform.rotation.eulerAngles.y/360.0f;
+        }
         statue = PlaceRotate.lastPrefab;
         float yrot = scrollrot.value * 360.0f;
         statue.transform.rotation = Quaternion.Euler(0, yrot, 0);

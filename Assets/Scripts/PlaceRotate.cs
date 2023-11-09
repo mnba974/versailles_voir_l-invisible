@@ -8,8 +8,9 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class PlaceRotate : MonoBehaviour
 {
-    private Collider collider;
+    private Collider collide;
     public GameObject detect;
+    public GameObject toucheSol;
     [SerializeField] ARRaycastManager m_RaycastManager;
     List<ARRaycastHit> m_Hits = new List<ARRaycastHit>();
     Camera arCam;
@@ -21,6 +22,7 @@ public class PlaceRotate : MonoBehaviour
     // as their corresponding 2D images in the reference image library 
 
     public GameObject[] ArPrefabs;
+
     public GameObject prefab;
     public static GameObject lastPrefab;
     // Keep dictionary array of created prefabs
@@ -34,9 +36,10 @@ public class PlaceRotate : MonoBehaviour
     private void Start()
     {
         detect = GameObject.Find("detect");
+        toucheSol = GameObject.Find("Touche_sol");
         detect.SetActive(false);
+        toucheSol.SetActive(false);
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>();
-
     }
 
     void OnEnable()
@@ -61,6 +64,7 @@ public class PlaceRotate : MonoBehaviour
             // Get the name of the reference image
             var imageName = trackedImage.referenceImage.name;
             detect.SetActive(true);
+            toucheSol.SetActive(true);
             // Now loop over the array of prefabs
             foreach (var curPrefab in ArPrefabs)
             {
@@ -70,7 +74,6 @@ public class PlaceRotate : MonoBehaviour
                     && !_instantiatedPrefabs.ContainsKey(imageName))
                 {
                     prefab = curPrefab;
-                    lastPrefab = curPrefab;
                     _instantiatedPrefabs[imageName] = prefab;
 
                 }
@@ -101,7 +104,8 @@ public class PlaceRotate : MonoBehaviour
                     if (prefab != null)
                     {
                         SpawnPrefab(m_Hits[0].pose.position);
-                        
+                        toucheSol.SetActive(false);
+                        lastPrefab = prefab;
                     }
 
                     else if (hit.collider.gameObject.tag == "spawnable")
@@ -109,8 +113,8 @@ public class PlaceRotate : MonoBehaviour
 
                         prefab = hit.collider.gameObject;
                         lastPrefab = hit.collider.gameObject;
-                        collider = prefab.GetComponent<Collider>();
-                        collider.enabled = false;
+                        collide = prefab.GetComponent<Collider>();
+                        collide.enabled = false;
 
                     }
                     
@@ -128,7 +132,7 @@ public class PlaceRotate : MonoBehaviour
             {
                 
              prefab = null;
-             collider.enabled = true;
+             collide.enabled = true;
                 
             }
         }

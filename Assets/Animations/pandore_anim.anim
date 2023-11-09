@@ -48,7 +48,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: DustStorm Variant
+    path: PandoreGroup/DustStorm Variant
   m_ScaleCurves: []
   m_FloatCurves:
   - serializedVersion: 2
@@ -95,7 +95,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.001
+    path: PandoreGroup/pandore_LOD0.001
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -143,7 +143,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.002
+    path: PandoreGroup/pandore_LOD0.002
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -191,7 +191,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.003
+    path: PandoreGroup/pandore_LOD0.003
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -239,7 +239,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.004
+    path: PandoreGroup/pandore_LOD0.004
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -287,7 +287,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.005
+    path: PandoreGroup/pandore_LOD0.005
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -335,7 +335,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.006
+    path: PandoreGroup/pandore_LOD0.006
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -383,7 +383,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.007
+    path: PandoreGroup/pandore_LOD0.007
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -431,7 +431,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.008
+    path: PandoreGroup/pandore_LOD0.008
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -479,7 +479,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.009
+    path: PandoreGroup/pandore_LOD0.009
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -527,7 +527,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.010
+    path: PandoreGroup/pandore_LOD0.010
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -575,7 +575,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.011
+    path: PandoreGroup/pandore_LOD0.011
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -623,7 +623,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.012
+    path: PandoreGroup/pandore_LOD0.012
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -671,7 +671,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.013
+    path: PandoreGroup/pandore_LOD0.013
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -719,7 +719,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.014
+    path: PandoreGroup/pandore_LOD0.014
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -767,7 +767,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.015
+    path: PandoreGroup/pandore_LOD0.015
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -815,7 +815,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.016
+    path: PandoreGroup/pandore_LOD0.016
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -863,7 +863,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.017
+    path: PandoreGroup/pandore_LOD0.017
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -911,7 +911,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.018
+    path: PandoreGroup/pandore_LOD0.018
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -959,7 +959,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.019
+    path: PandoreGroup/pandore_LOD0.019
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1007,7 +1007,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.020
+    path: PandoreGroup/pandore_LOD0.020
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1055,7 +1055,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.021
+    path: PandoreGroup/pandore_LOD0.021
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1103,7 +1103,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.022
+    path: PandoreGroup/pandore_LOD0.022
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1151,7 +1151,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.023
+    path: PandoreGroup/pandore_LOD0.023
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1199,7 +1199,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.024
+    path: PandoreGroup/pandore_LOD0.024
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1247,7 +1247,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.025
+    path: PandoreGroup/pandore_LOD0.025
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1295,7 +1295,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.026
+    path: PandoreGroup/pandore_LOD0.026
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1343,7 +1343,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.027
+    path: PandoreGroup/pandore_LOD0.027
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1391,7 +1391,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.028
+    path: PandoreGroup/pandore_LOD0.028
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1439,7 +1439,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.029
+    path: PandoreGroup/pandore_LOD0.029
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1487,7 +1487,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.030
+    path: PandoreGroup/pandore_LOD0.030
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1526,7 +1526,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: DustStorm Variant
+    path: PandoreGroup/DustStorm Variant
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1565,7 +1565,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Tiroir (1)
+    path: PandoreGroup/Tiroir (1)
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1578,7 +1578,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 4079540871
+      path: PandoreGroup/4079540871
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -1587,7 +1587,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 876510308
+      path: PandoreGroup/876510308
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1596,7 +1596,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2906074590
+      path: PandoreGroup/2906074590
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1605,7 +1605,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3660586312
+      path: PandoreGroup/3660586312
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1614,7 +1614,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1146390763
+      path: PandoreGroup/1146390763
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1623,7 +1623,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 861124733
+      path: PandoreGroup/861124733
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1632,7 +1632,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2858084807
+      path: PandoreGroup/2858084807
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1641,7 +1641,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3713915217
+      path: PandoreGroup/3713915217
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1650,7 +1650,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1306707136
+      path: PandoreGroup/1306707136
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1659,7 +1659,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 988148822
+      path: PandoreGroup/988148822
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1668,7 +1668,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1512209843
+      path: PandoreGroup/1512209843
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1677,7 +1677,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 757419301
+      path: PandoreGroup/757419301
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1686,7 +1686,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3022789791
+      path: PandoreGroup/3022789791
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1695,7 +1695,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3274386441
+      path: PandoreGroup/3274386441
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1704,7 +1704,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1565505962
+      path: PandoreGroup/1565505962
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1713,7 +1713,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 709396796
+      path: PandoreGroup/709396796
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1722,7 +1722,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3007436934
+      path: PandoreGroup/3007436934
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1731,7 +1731,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3292981264
+      path: PandoreGroup/3292981264
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1740,7 +1740,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1425667457
+      path: PandoreGroup/1425667457
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1749,7 +1749,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 603899159
+      path: PandoreGroup/603899159
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1758,7 +1758,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1896820336
+      path: PandoreGroup/1896820336
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1767,7 +1767,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 101195494
+      path: PandoreGroup/101195494
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1776,7 +1776,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2667663196
+      path: PandoreGroup/2667663196
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1785,7 +1785,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3892740042
+      path: PandoreGroup/3892740042
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1794,7 +1794,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1986194025
+      path: PandoreGroup/1986194025
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1803,7 +1803,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 23452415
+      path: PandoreGroup/23452415
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1812,7 +1812,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2557250373
+      path: PandoreGroup/2557250373
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1821,7 +1821,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4016815059
+      path: PandoreGroup/4016815059
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1830,7 +1830,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2144642626
+      path: PandoreGroup/2144642626
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1839,7 +1839,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 148084436
+      path: PandoreGroup/148084436
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1848,7 +1848,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1746149169
+      path: PandoreGroup/1746149169
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1857,7 +1857,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4079540871
+      path: PandoreGroup/4079540871
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1866,7 +1866,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2387876319
+      path: PandoreGroup/2387876319
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1940,7 +1940,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.001
+    path: PandoreGroup/pandore_LOD0.001
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -1988,7 +1988,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.002
+    path: PandoreGroup/pandore_LOD0.002
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2036,7 +2036,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.003
+    path: PandoreGroup/pandore_LOD0.003
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2084,7 +2084,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.004
+    path: PandoreGroup/pandore_LOD0.004
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2132,7 +2132,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.005
+    path: PandoreGroup/pandore_LOD0.005
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2180,7 +2180,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.006
+    path: PandoreGroup/pandore_LOD0.006
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2228,7 +2228,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.007
+    path: PandoreGroup/pandore_LOD0.007
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2276,7 +2276,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.008
+    path: PandoreGroup/pandore_LOD0.008
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2324,7 +2324,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.009
+    path: PandoreGroup/pandore_LOD0.009
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2372,7 +2372,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.010
+    path: PandoreGroup/pandore_LOD0.010
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2420,7 +2420,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.011
+    path: PandoreGroup/pandore_LOD0.011
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2468,7 +2468,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.012
+    path: PandoreGroup/pandore_LOD0.012
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2516,7 +2516,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.013
+    path: PandoreGroup/pandore_LOD0.013
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2564,7 +2564,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.014
+    path: PandoreGroup/pandore_LOD0.014
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2612,7 +2612,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.015
+    path: PandoreGroup/pandore_LOD0.015
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2660,7 +2660,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.016
+    path: PandoreGroup/pandore_LOD0.016
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2708,7 +2708,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.017
+    path: PandoreGroup/pandore_LOD0.017
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2756,7 +2756,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.018
+    path: PandoreGroup/pandore_LOD0.018
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2804,7 +2804,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.019
+    path: PandoreGroup/pandore_LOD0.019
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2852,7 +2852,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.020
+    path: PandoreGroup/pandore_LOD0.020
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2900,7 +2900,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.021
+    path: PandoreGroup/pandore_LOD0.021
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2948,7 +2948,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.022
+    path: PandoreGroup/pandore_LOD0.022
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -2996,7 +2996,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.023
+    path: PandoreGroup/pandore_LOD0.023
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -3044,7 +3044,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.024
+    path: PandoreGroup/pandore_LOD0.024
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -3092,7 +3092,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.025
+    path: PandoreGroup/pandore_LOD0.025
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -3140,7 +3140,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.026
+    path: PandoreGroup/pandore_LOD0.026
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -3188,7 +3188,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.027
+    path: PandoreGroup/pandore_LOD0.027
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -3236,7 +3236,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.028
+    path: PandoreGroup/pandore_LOD0.028
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -3284,7 +3284,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.029
+    path: PandoreGroup/pandore_LOD0.029
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -3332,7 +3332,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: pandore_LOD0.030
+    path: PandoreGroup/pandore_LOD0.030
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -3371,7 +3371,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: DustStorm Variant
+    path: PandoreGroup/DustStorm Variant
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3410,7 +3410,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: DustStorm Variant
+    path: PandoreGroup/DustStorm Variant
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3449,7 +3449,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: DustStorm Variant
+    path: PandoreGroup/DustStorm Variant
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -3488,7 +3488,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: DustStorm Variant
+    path: PandoreGroup/DustStorm Variant
     classID: 1
     script: {fileID: 0}
     flags: 16
@@ -3527,7 +3527,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Tiroir (1)
+    path: PandoreGroup/Tiroir (1)
     classID: 1
     script: {fileID: 0}
     flags: 16

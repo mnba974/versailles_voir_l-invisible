@@ -6,7 +6,8 @@ using UnityEngine.XR.ARFoundation;
 public class lowplane : MonoBehaviour
 {
     public ARPlaneManager planeManager;
-    public float lowest = Mathf.Infinity;
+    public static float lowest = 400;
+    public float CurLowest = Mathf.Infinity;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +19,12 @@ public class lowplane : MonoBehaviour
     {
         foreach (ARPlane plane in planeManager.trackables)
         {
-            if (plane.transform.position.y < lowest)
+            if (plane.transform.position.y < CurLowest)
             {
-                lowest = plane.transform.position.y;
+                CurLowest = plane.transform.position.y;
             }
         }
+        lowest = CurLowest;
+        CurLowest = Mathf.Infinity;
     }
 }

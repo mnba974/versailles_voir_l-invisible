@@ -12,13 +12,12 @@ public class debug : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        t = gameObject.GetComponent<TextMeshProUGUI>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        l = debugGameObject.GetComponent<lowplane>().lowest;
-        t.text = l.ToString();
+        
     }
 }

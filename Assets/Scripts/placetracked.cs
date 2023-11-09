@@ -17,6 +17,7 @@ public class PlaceTrackedImages : MonoBehaviour
     // List of prefabs to instantiate - these should be named the same
     // as their corresponding 2D images in the reference image library 
     public GameObject[] ArPrefabs;
+   
 
     // Keep dictionary array of created prefabs
     public static Dictionary<string, GameObject> _instantiatedPrefabs = new Dictionary<string, GameObject>();
@@ -58,6 +59,13 @@ public class PlaceTrackedImages : MonoBehaviour
             // Get the name of the reference image
             var imageName = trackedImage.referenceImage.name;
             detect.SetActive(true);
+
+            Transform button = buttonsPanel.transform.Find(imageName);
+
+            if (button != null)
+            {
+                button.GetComponent<Image>().color = Color.white;
+            }
             // Now loop over the array of prefabs
             foreach (var curPrefab in ArPrefabs)
             {
@@ -69,24 +77,19 @@ public class PlaceTrackedImages : MonoBehaviour
                     // Instantiate the prefab, parenting it to the ARTrackedImage
                     var newPrefab = Instantiate(curPrefab);
                     // Add the created prefab to our array
-                    newPrefab.transform.position = trackedImage.transform.position;
+                    newPrefab.transform.position = trackedImage.transform.position + offset;
                     _instantiatedPrefabs[imageName] = newPrefab;
                     text.SetActive(true);
 
-                    Transform button = buttonsPanel.transform.Find(imageName);
-
-                    if (button != null)
-                    {
-                        button.GetComponent<Image>().color = Color.white;
-                    }
+                    
                 }
             }
         }
         foreach (var trackedImage in eventArgs.updated)
         {
             var imageName = trackedImage.referenceImage.name;
-            _instantiatedPrefabs[imageName].transform.position = trackedImage.transform.position;
-            _instantiatedPrefabs[imageName].transform.rotation = Quaternion.Euler(0, trackedImage.transform.rotation.eulerAngles.y +180, 0);
+            _instantiatedPrefabs[imageName].transform.position = trackedImage.transform.position + offset;
+            _instantiatedPrefabs[imageName].transform.rotation = Quaternion.Euler(0, trackedImage.transform.rotation.eulerAngles.y, 0);
         }
 
 

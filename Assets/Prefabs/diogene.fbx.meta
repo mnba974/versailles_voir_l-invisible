@@ -29,6 +29,41 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: initialShadingGroup.002
     second: {fileID: 2100000, guid: 76f2dc1812821504a9bdccfc36a667b1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Oil_Lamp_BaseColor.tga
+    second: {fileID: 2800000, guid: a55197d42e739804ba61843675d0fecc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Oil_Lamp_Metallic.tga
+    second: {fileID: 2800000, guid: a6ce3efe9db3e804e9f8df1d0ac12330, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Oil_Lamp_Roughness.tga
+    second: {fileID: 2800000, guid: 3fab5e333ba77f5458cc2fe085a50134, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: barrel_Base_Color
+    second: {fileID: 2800000, guid: 952214c71ac85fb4b8c85426b3f7ea40, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: barrel_Metallic
+    second: {fileID: 2800000, guid: 843df427925c2794187151ae95dba7d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: barrel_Roughness
+    second: {fileID: 2800000, guid: 785a223755daf7b499fd9dfbc616a1cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: diogene_LOD0_u0_v0_diffuse
+    second: {fileID: 2800000, guid: f6f570f8cf8d4934b811646d2fb92d19, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
