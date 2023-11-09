@@ -18,3 +18,4 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: bc2aa5c6c1b544a4aa44d43d42251ae0, type: 3}
   description: "Un \xE9pis de bl\xE9, repr\xE9sentatif de la d\xE9esse de l'agriculture."
   UIScale: 10000
+  statue: {fileID: 4732778382164775869, guid: 19eedc55cdd5d2f4dbacfa02813d5a8e, type: 3}

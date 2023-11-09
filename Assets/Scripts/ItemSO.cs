@@ -12,4 +12,6 @@ public class ItemSO : ScriptableObject
     [TextArea]
     public string description;
     public float UIScale = 10;
+
+    public GameObject statue;
 }

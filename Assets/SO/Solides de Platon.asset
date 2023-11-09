@@ -19,3 +19,4 @@ MonoBehaviour:
   description: "Ces 5 solides repr\xE9sentent les \xE9l\xE9ments : le feu, l'eau,
     la terre, l'air et l'\xE9ther."
   UIScale: 30
+  statue: {fileID: 7687853616507948573, guid: 4d1c13ff87d1aa44ea5f884e982abe82, type: 3}

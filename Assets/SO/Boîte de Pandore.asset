@@ -18,3 +18,4 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: 93e553b8e28ddd9468a08d85c34244e9, type: 3}
   description: "La bo\xEEte de Pandore, qui contient tous les maux du monde..."
   UIScale: 1
+  statue: {fileID: 4495600489118075847, guid: 0ef4a3d37c0105c4ea4ae56e1cb8b823, type: 3}
