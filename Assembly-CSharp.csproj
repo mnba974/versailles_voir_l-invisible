@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\RotateInUI.cs" />
     <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCam.cs" />
     <Compile Include="Assets\Scripts\screen_orientation.cs" />
+    <Compile Include="Assets\Scripts\LineGenerator.cs" />
     <Compile Include="Assets\Scripts\scale.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Ramps\Runtime\RampAsset.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets\Scripts\ItemGiver.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\Scripts\PandorAnim.cs" />
+    <Compile Include="Assets\Scripts\LineScript.cs" />
     <Compile Include="Assets\Scripts\debug.cs" />
     <Compile Include="Assets\Scripts\lowplane.cs" />
     <Compile Include="Assets\Scripts\ItemSO.cs" />

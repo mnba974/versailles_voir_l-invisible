@@ -8,7 +8,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class PlaceTrackedImages : MonoBehaviour
 {
-    public Vector3 offset;
+    public float offset;
     public GameObject detect;
     public GameObject text;
     // Reference to AR tracked image manager component
@@ -77,7 +77,7 @@ public class PlaceTrackedImages : MonoBehaviour
                     // Instantiate the prefab, parenting it to the ARTrackedImage
                     var newPrefab = Instantiate(curPrefab);
                     // Add the created prefab to our array
-                    newPrefab.transform.position = trackedImage.transform.position + offset;
+                    newPrefab.transform.position = new Vector3(trackedImage.transform.position.x, trackedImage.transform.position.y, trackedImage.transform.position.z +offset);
                     _instantiatedPrefabs[imageName] = newPrefab;
                     text.SetActive(true);
 
@@ -88,7 +88,7 @@ public class PlaceTrackedImages : MonoBehaviour
         foreach (var trackedImage in eventArgs.updated)
         {
             var imageName = trackedImage.referenceImage.name;
-            _instantiatedPrefabs[imageName].transform.position = trackedImage.transform.position + offset;
+            _instantiatedPrefabs[imageName].transform.position = new Vector3(trackedImage.transform.position.x, trackedImage.transform.position.y, trackedImage.transform.position.z + offset);
             _instantiatedPrefabs[imageName].transform.rotation = Quaternion.Euler(0, trackedImage.transform.rotation.eulerAngles.y, 0);
         }
 

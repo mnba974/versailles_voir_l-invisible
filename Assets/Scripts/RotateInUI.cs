@@ -34,7 +34,14 @@ public class RotateInUI : MonoBehaviour
         
         if (touch.phase != TouchPhase.Moved)
         {
-            rb.angularVelocity = new Vector3(touch.deltaPosition.y * rotSpeed, -touch.deltaPosition.x * rotSpeed, 0f);
+            if (gameObject.tag == "Statue")
+            {
+                rb.angularVelocity = new Vector3(0, -touch.deltaPosition.x * rotSpeed, 0f);
+            }
+            else
+            {
+                rb.angularVelocity = new Vector3(touch.deltaPosition.y * rotSpeed, -touch.deltaPosition.x * rotSpeed, 0f);
+            }
             
         }
 

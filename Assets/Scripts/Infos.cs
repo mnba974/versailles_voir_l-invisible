@@ -8,6 +8,7 @@ public class Infos : MonoBehaviour
 {
     public GameObject textPanel;
     public GameObject infoPanel;
+    
     public List<GameObject> textsList;
     
     public Color color;
@@ -20,9 +21,10 @@ public class Infos : MonoBehaviour
         {
             text.SetActive(false);
         }
-        
 
-        color = transform.GetChild(0).GetComponent<TextMeshProUGUI>().color;
+
+        color = GetComponent<Image>().color;
+        
         if (color == Color.white)
         {
             textPanel.SetActive(false);
@@ -36,12 +38,7 @@ public class Infos : MonoBehaviour
             prefab.transform.SetParent(showPanel.transform, true);
             prefab.name = "UI_OBJ";
 
-            Rigidbody rb = prefab.AddComponent<Rigidbody>();
-            rb.useGravity = false;
-            rb.angularDrag = 4;
-
-            RotateInUI RIUI = prefab.AddComponent<RotateInUI>();
-            RIUI.rotSpeed = 0.1f;
+            
 
 
         }

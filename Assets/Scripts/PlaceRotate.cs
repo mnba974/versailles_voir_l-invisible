@@ -14,7 +14,7 @@ public class PlaceRotate : MonoBehaviour
     [SerializeField] ARRaycastManager m_RaycastManager;
     List<ARRaycastHit> m_Hits = new List<ARRaycastHit>();
     Camera arCam;
-
+    public GameObject buttonsPanel;
     // Reference to AR tracked image manager component
     private ARTrackedImageManager _trackedImagesManager;
 
@@ -65,6 +65,12 @@ public class PlaceRotate : MonoBehaviour
             var imageName = trackedImage.referenceImage.name;
             detect.SetActive(true);
             toucheSol.SetActive(true);
+            Transform button = buttonsPanel.transform.Find(imageName);
+
+            if (button != null)
+            {
+                button.GetComponent<Image>().color = Color.white;
+            }
             // Now loop over the array of prefabs
             foreach (var curPrefab in ArPrefabs)
             {
@@ -125,7 +131,7 @@ public class PlaceRotate : MonoBehaviour
             else if (Input.GetTouch(0).phase == TouchPhase.Moved && prefab != null )
             {
 
-                prefab.transform.position = m_Hits[0].pose.position;
+                prefab.transform.position = new Vector3(m_Hits[0].pose.position.x, lowplane.lowest , m_Hits[0].pose.position.z);
             }
 
             if (Input.GetTouch(0).phase == TouchPhase.Ended)

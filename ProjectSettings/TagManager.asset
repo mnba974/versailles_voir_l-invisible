@@ -8,6 +8,8 @@ TagManager:
   - ball
   - cl
   - Inventory
+  - Draw
+  - Statue
   layers:
   - Default
   - TransparentFX

@@ -21,6 +21,7 @@ public class ItemGiver : MonoBehaviour
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>();
         inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
         m_RaycastManager = GameObject.Find("AR Session Origin").GetComponent<ARRaycastManager>();
+        objetDecouvert = GameObject.Find("Item");
     }
 
     // Update is called once per frame
