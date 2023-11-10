@@ -695,7 +695,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f358e7a7fc68a04eaa27ecd934f0681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Magnitude: 0
   rotSpeed: 0.1
+  Image: {fileID: 0}
   rb: {fileID: 0}
 --- !u!54 &8208166846480109695
 Rigidbody:
@@ -1339,7 +1341,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f358e7a7fc68a04eaa27ecd934f0681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Magnitude: 0
   rotSpeed: 0.1
+  Image: {fileID: 0}
   rb: {fileID: 0}
 --- !u!54 &4629643612567551408
 Rigidbody:
@@ -7997,9 +8001,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.44
-  m_Height: 3.57
+  m_Height: 3.8070934
   m_Direction: 1
-  m_Center: {x: 0, y: 2.06, z: 0}
+  m_Center: {x: 0, y: 1.9414531, z: 0}
 --- !u!1 &9045599115962967267
 GameObject:
   m_ObjectHideFlags: 0

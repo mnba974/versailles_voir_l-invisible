@@ -20,7 +20,7 @@ public class LineScript : MonoBehaviour
             points = new List<Vector3>();
             SetPoint(position);
         }
-        if (Vector3.Distance(position, points.Last()) > 0.1f){
+        if (Vector3.Distance(position, points.Last()) > 0.005f){
             SetPoint(position);
         }
     }

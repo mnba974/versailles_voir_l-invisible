@@ -9,6 +9,7 @@ public class LineGenerator : MonoBehaviour
     public GameObject linePrefab;
     GameObject newLine;
     RaycastHit hit;
+    
     public Camera arCam;
 
     LineScript activeLine;
@@ -18,14 +19,14 @@ public class LineGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount >0 )
+        if (Input.touchCount > 0 && activeLine == null)
         {
             
             Ray ray = arCam.ScreenPointToRay(Input.GetTouch(0).position);
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.gameObject.tag == "Draw")
+                if (hit.collider.gameObject.CompareTag("spawnable"))
                 {
                     newLine = Instantiate(linePrefab);
                     newLine.transform.SetParent(hit.transform, true);
@@ -48,7 +49,7 @@ public class LineGenerator : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.gameObject.tag == "Draw")
+                if (hit.collider.gameObject.CompareTag("spawnable"))
                 {
                     activeLine.UpdateLine(hit.point);
                 }

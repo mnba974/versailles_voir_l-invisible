@@ -6,12 +6,17 @@ using UnityEngine.XR.ARFoundation;
 public class RotateInUI : MonoBehaviour
 {
     public Touch touch;
+    public Touch touch1;
+    public Touch touch2;
+    public float Magnitude;
     public float rotSpeed = 1.0f;
-    
+    public GameObject Image;
     public Rigidbody rb;
-    
+
+    float initialScale;
     void Start()
     {
+        initialScale = gameObject.transform.localScale.x;
         rb = GetComponent<Rigidbody>();
         if (gameObject.name != "UI_OBJ")
         {
@@ -40,31 +45,60 @@ public class RotateInUI : MonoBehaviour
         {
             return;
         }
-        touch = Input.GetTouch(0);
-        if (touch.phase == TouchPhase.Began)
+        if (Input.touchCount == 1)
         {
-            if (gameObject.tag == "Statue")
-            {
-                rb.angularVelocity = new Vector3(0, 0, 0);
-                rb.angularDrag = 4;
-            }
-        }
-        if (touch.phase == TouchPhase.Moved)
-        {
-            if (gameObject.tag == "Statue")
-            {
-                rb.angularVelocity = new Vector3(0, -touch.deltaPosition.x * rotSpeed, 0f);
-            }
-            else
-            {
-                rb.angularVelocity = new Vector3(touch.deltaPosition.y * rotSpeed, -touch.deltaPosition.x * rotSpeed, 0f);
-            }
             
+            touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began)
+            {
+                if (gameObject.tag == "Statue")
+                {
+                    rb.angularVelocity = new Vector3(0, 0, 0);
+                    rb.angularDrag = 4;
+                }
+            }
+            if (touch.phase == TouchPhase.Moved)
+            {
+                if (gameObject.tag == "Statue")
+                {
+                    rb.angularVelocity = new Vector3(0, -touch.deltaPosition.x * rotSpeed, 0f);
+                }
+                else
+                {
+                    rb.angularVelocity = new Vector3(touch.deltaPosition.y * rotSpeed, -touch.deltaPosition.x * rotSpeed, 0f);
+                }
+
+            }
+
+            if (touch.phase == TouchPhase.Ended)
+            {
+                Invoke("AutoTurn", 5.0f);
+            }
+
         }
-        
-        if (touch.phase == TouchPhase.Ended) 
+
+        if (Input.touchCount == 2)
         {
-            Invoke("AutoTurn", 5.0f);
+            touch1 = Input.GetTouch(0);
+            touch2 = Input.GetTouch(1);
+            if (touch1.phase == TouchPhase.Began && touch2.phase == TouchPhase.Began)
+            {
+                Magnitude = (touch1.position - touch2.position).magnitude +1;
+            }
+            if (touch1.phase == TouchPhase.Moved || touch2.phase == TouchPhase.Moved)
+            {
+                float mag2 = (touch1.position - touch2.position).magnitude+1;
+                Vector3 newScale = gameObject.transform.localScale * mag2/Magnitude;
+                if (newScale.x < 1.5f *initialScale)
+                {
+                    gameObject.transform.localScale = newScale;
+                }
+                else
+                {
+                    gameObject.transform.localScale = new Vector3(1.5f * initialScale, 1.5f * initialScale, 1.5f * initialScale);
+                }
+                Magnitude = mag2;
+            }
         }
 
     }
