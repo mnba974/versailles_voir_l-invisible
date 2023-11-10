@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: "Bol de Diog\xE8ne"
   m_EditorClassIdentifier: 
   itemName: "Bol de Diog\xE8ne"
-  discovered: 0
-  prefab: {fileID: 0}
+  discovered: 1
+  prefab: {fileID: 158357245476389681, guid: 97de996a664689e4786de7a6ca9dfa9e, type: 3}
   itemSprite: {fileID: 21300000, guid: 4527c80ca3378d84e8acd75d71c32264, type: 3}
   description: 
-  UIScale: 1
-  statue: {fileID: 0}
+  UIScale: 8500
+  statue: {fileID: 558464882884555385, guid: ec68addd3ca740d428247bbba7b6dfb4, type: 3}
