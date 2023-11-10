@@ -1,4 +1,5 @@
 **Voir l'invisible**
+
 De novembre à mars, les statues du jardin du Château de versailles sont recouvertes de bâches afin de les protéger. Le projet consiste à
 permettre au public de découvrir ces statues, malgré les bâches, grâce à la réalité augmentée. En scannat le cartel devant une statue, le 
 visiteur peut découvrir sur son téléphone portable un modèle 3D bien recalé de la statue et des contenus associés. Des animations en 
