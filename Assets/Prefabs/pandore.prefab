@@ -844,7 +844,7 @@ GameObject:
   - component: {fileID: 7147351873626723505}
   - component: {fileID: 8404493191825076462}
   m_Layer: 0
-  m_Name: Pandore
+  m_Name: pandore
   m_TagString: spawnable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1504,7 +1504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f358e7a7fc68a04eaa27ecd934f0681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Magnitude: 0
   rotSpeed: 0.1
+  Image: {fileID: 0}
   rb: {fileID: 0}
 --- !u!65 &6293221194365540750
 BoxCollider:
