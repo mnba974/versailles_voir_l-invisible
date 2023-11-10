@@ -1096,6 +1096,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 329146354028262639}
     m_Modifications:
+    - target: {fileID: 233375811772359055, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000008573023
+      objectReference: {fileID: 0}
+    - target: {fileID: 233375811772359055, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 105.99999
+      objectReference: {fileID: 0}
+    - target: {fileID: 233375811772359055, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -99.00001
+      objectReference: {fileID: 0}
     - target: {fileID: 339963654819830160, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_text
@@ -1135,6 +1150,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277577358170825845, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277577358170825845, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1811027971987630772, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
@@ -1176,10 +1201,45 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3810477360277502064, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810477360277502064, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810477360277502064, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071253610349850132, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4135584327894724189, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_text
       value: 'D : Hipparque'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268330155695251221, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268330155695251221, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268330155695251221, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4678217105678260359, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
@@ -1190,6 +1250,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Quizz_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392341331251753611, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 162.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392341331251753611, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 43.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392341331251753611, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392341331251753611, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -116
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392341331251753611, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -106
       objectReference: {fileID: 0}
     - target: {fileID: 5500725257294023075, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
@@ -1261,6 +1346,113 @@ PrefabInstance:
       propertyPath: m_text
       value: "Le jour de la mort de quel autre personnage antique Diog\xE8ne est-il
         mort (selon l\xE9gende suspecte) ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521620537350055363, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -36.13788
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521620537350055363, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -37.635635
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 123.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 167.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000044453
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 141.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587866552854487748, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: "C'\xE9tait la r\xE9ponse A : Diog\xE8ne est mort le m\xEAme jour qu'Alexandre
+        le grand (selon la l\xE9gende suspecte)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 22.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -44.804893
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -43.280907
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 22.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: "Bravo !\n\nC'\xE9tait la r\xE9ponse A : Diog\xE8ne est mort en m\xEAme
+        temps qu'Alexandre le grand (selon la l\xE9gende suspecte)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -52.309
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -51.64846
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20.9
       objectReference: {fileID: 0}
     - target: {fileID: 6962653130661008384, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
