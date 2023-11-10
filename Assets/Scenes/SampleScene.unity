@@ -2822,6 +2822,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1765911371}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &788979765 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5803946993093730083, guid: ac424fbbc53e1a54ba9025d0871b1a83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1765911371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &848164645
 GameObject:
   m_ObjectHideFlags: 0
@@ -3050,9 +3056,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 788979764}
   - {fileID: 1975082550474259150}
   - {fileID: 1735593811}
-  - {fileID: 788979764}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4541,6 +4547,7 @@ MonoBehaviour:
   - {fileID: 7789848251158101273, guid: 4163ed89d6503c84989d77d64f384ffa, type: 3}
   - {fileID: 3498138941387906767, guid: ed3f8cb9d58807841bd21d1e831088a7, type: 3}
   buttonsPanel: {fileID: 956709520}
+  canvas: {fileID: 788979765}
 --- !u!114 &1304631180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5574,6 +5581,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item
       objectReference: {fileID: 0}
+    - target: {fileID: 2753757601834858129, guid: ac424fbbc53e1a54ba9025d0871b1a83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ae5f741bd95df94295a9c06c13e566f, type: 2}
     - target: {fileID: 6178390263648235063, guid: ac424fbbc53e1a54ba9025d0871b1a83,
         type: 3}
       propertyPath: m_Pivot.x
@@ -12153,6 +12165,65 @@ PrefabInstance:
       propertyPath: arsession
       value: 
       objectReference: {fileID: 5472436117178709916}
+    - target: {fileID: 8515061764797713837, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: Items.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8515061764797713837, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: Items.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6dff84dab92ff4048961ad853314a3b9,
+        type: 2}
+    - target: {fileID: 8515061764797713837, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: Items.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: c4b96327b26169f468b9fbc5009d8274,
+        type: 2}
+    - target: {fileID: 8515061764797713837, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: Items.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5cf8f1952f8963c40be465738e648ca0,
+        type: 2}
+    - target: {fileID: 8515061764797713837, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: Items.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4b47d95a71878bc41a1ecfdd7987e3af,
+        type: 2}
+    - target: {fileID: 8515061764797713837, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: Items.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 85ca6ac399c38d54abf9dcf093729707,
+        type: 2}
+    - target: {fileID: 8515061764797713837, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: Items.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2577df7a8a4b6da499a59b97dd9ada8c,
+        type: 2}
+    - target: {fileID: 8515061764797713837, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: Items.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8075015b98fa18549a4da6c31b409c23,
+        type: 2}
+    - target: {fileID: 8515061764797713837, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: Items.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 34ff29dd6947e214e90687988487acd5,
+        type: 2}
+    - target: {fileID: 8515061764797713837, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
+        type: 3}
+      propertyPath: Items.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: e92fffdaa04a5f34cb5a49f04d46e64d,
+        type: 2}
     - target: {fileID: 8977501156191888958, guid: 6ff9aa6ed642b0645a582a5b72abbafd,
         type: 3}
       propertyPath: m_AnchorMax.y
