@@ -24,6 +24,7 @@ public class PlaceTrackedImages : MonoBehaviour
 
 
     public GameObject buttonsPanel;
+    public Animator canvas;
 
     void Awake()
     {
@@ -66,6 +67,9 @@ public class PlaceTrackedImages : MonoBehaviour
             {
                 button.GetComponent<Image>().color = Color.white;
             }
+
+            canvas.SetTrigger("infos");
+
             // Now loop over the array of prefabs
             foreach (var curPrefab in ArPrefabs)
             {
