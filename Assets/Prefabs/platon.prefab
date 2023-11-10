@@ -39553,6 +39553,36 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1277577358170825845, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277577358170825845, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277577358170825845, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544397069378764189, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544397069378764189, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544397069378764189, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 175
+      objectReference: {fileID: 0}
     - target: {fileID: 1811027971987630772, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_text
@@ -39593,6 +39623,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3810477360277502064, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810477360277502064, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810477360277502064, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071253610349850132, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4135584327894724189, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_text
@@ -39627,6 +39677,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268330155695251221, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268330155695251221, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268330155695251221, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 4678217105678260359, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
@@ -39708,6 +39773,36 @@ PrefabInstance:
       propertyPath: m_text
       value: Combien y a-t-il de solides platoniciens?
       objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 106.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 86.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652869494248278544, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 159.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587866552854487748, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -39745,8 +39840,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: "C'\xE9tait la r\xE9ponse B : il y a 5 solides\n\nde Platon"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: 'Bravo !
+
+
+        Il y a bien 5 solides
+
+
+        de Platon'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 27.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -49.46853
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -51.65722
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 27.8
       objectReference: {fileID: 0}
     - target: {fileID: 6962653130661008384, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
