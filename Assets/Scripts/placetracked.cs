@@ -88,7 +88,8 @@ public class PlaceTrackedImages : MonoBehaviour
         foreach (var trackedImage in eventArgs.updated)
         {
             var imageName = trackedImage.referenceImage.name;
-            _instantiatedPrefabs[imageName].transform.position = new Vector3(trackedImage.transform.position.x, trackedImage.transform.position.y, trackedImage.transform.position.z + offset);
+            float y = trackedImage.transform.rotation.eulerAngles.y * MathF.PI/180.0f;
+            _instantiatedPrefabs[imageName].transform.position = new Vector3(trackedImage.transform.position.x + offset * Mathf.Sin(y), trackedImage.transform.position.y, trackedImage.transform.position.z + offset* MathF.Cos(y));
             _instantiatedPrefabs[imageName].transform.rotation = Quaternion.Euler(0, trackedImage.transform.rotation.eulerAngles.y, 0);
         }
 
