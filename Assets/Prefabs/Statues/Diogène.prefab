@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1323996763334173564}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: "Diog\xE8ne"
   m_TagString: Statue
   m_Icon: {fileID: 0}
@@ -43,9 +43,9 @@ GameObject:
   - component: {fileID: 2967189612069105723}
   - component: {fileID: 8208653436054607736}
   - component: {fileID: 7850882543222219542}
-  m_Layer: 0
-  m_Name: diogene_LOD0
-  m_TagString: Untagged
+  m_Layer: 7
+  m_Name: UI_OBJ
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -3,7 +3,12 @@ guid: bdd5f87db9972ad4e905f710b7defaab
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01_achelousMat
+    second: {fileID: 2100000, guid: 2247bd3a6b0272845835728343286a37, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

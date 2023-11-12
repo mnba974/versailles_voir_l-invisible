@@ -5,6 +5,11 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: platon_model_LOD0_u0_v0
+    second: {fileID: 2100000, guid: 7af5e544b69a2de44864be2cc4aabf6e, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: platon_model_LOD0_u0_v0_diffuse

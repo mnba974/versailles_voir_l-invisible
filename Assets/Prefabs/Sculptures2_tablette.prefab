@@ -4420,7 +4420,7 @@ MonoBehaviour:
         m_MethodName: ShowItem
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 2577df7a8a4b6da499a59b97dd9ada8c,
+          m_ObjectArgument: {fileID: 11400000, guid: 8075015b98fa18549a4da6c31b409c23,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: ItemSO, Assembly-CSharp
           m_IntArgument: 0

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F27EB2F4-7541-3431-EC87-2AF1356B845B}</ProjectGuid>
+    <ProjectGuid>{FF2EDE8B-0DE3-2C85-F28A-7AD5EC4DB275}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,35 +59,43 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\cloth_script.cs" />
-    <Compile Include="Assets\Scripts\orientation.cs" />
     <Compile Include="Assets\Scripts\LightBrightnessChange.cs" />
-    <Compile Include="Assets\Scripts\placetracked.cs" />
     <Compile Include="Assets\Scripts\ObjectDisappearance.cs" />
     <Compile Include="Assets\Scripts\Infos.cs" />
-    <Compile Include="Assets\Scripts\scene loader.cs" />
     <Compile Include="Assets\Scripts\ResetScript.cs" />
     <Compile Include="Assets\Scripts\canvas_prefab.cs" />
     <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\UIButton_ShowNext.cs" />
     <Compile Include="Assets\Scripts\detectéScript.cs" />
-    <Compile Include="Assets\Scripts\Scene_loader.cs" />
     <Compile Include="Assets\Scripts\RotateInUI.cs" />
-    <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCam.cs" />
-    <Compile Include="Assets\Scripts\screen_orientation.cs" />
-    <Compile Include="Assets\Scripts\LineGenerator.cs" />
-    <Compile Include="Assets\Scripts\scale.cs" />
-    <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\ZommScan.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\AdjustTimeScale.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\SpawnableManager.cs" />
     <Compile Include="Assets\Scripts\bakbutton_script.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCharacterMotor.cs" />
-    <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
     <Compile Include="Assets\Scripts\PlaceRotate.cs" />
+    <Compile Include="Assets\Scripts\PandorAnim.cs" />
+    <Compile Include="Assets\Scripts\sphere_script.cs" />
+    <Compile Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+    <Compile Include="Assets\Scripts\Switcher.cs" />
+    <Compile Include="Assets\Scripts\WheatColorChange.cs" />
+    <Compile Include="Assets\Scripts\statue_still.cs" />
+    <Compile Include="Assets\Scripts\SliderRotation.cs" />
+    <Compile Include="Assets\Scripts\canvas_camera.cs" />
+    <Compile Include="Assets\Scripts\orientation.cs" />
+    <Compile Include="Assets\Scripts\placetracked.cs" />
+    <Compile Include="Assets\Scripts\scene loader.cs" />
+    <Compile Include="Assets\Scripts\Scene_loader.cs" />
+    <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCam.cs" />
+    <Compile Include="Assets\Scripts\screen_orientation.cs" />
+    <Compile Include="Assets\Scripts\LineGenerator.cs" />
+    <Compile Include="Assets\Scripts\scale.cs" />
+    <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
     <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
     <Compile Include="Assets\Scripts\ItemGiver.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
-    <Compile Include="Assets\Scripts\PandorAnim.cs" />
     <Compile Include="Assets\Scripts\LineScript.cs" />
     <Compile Include="Assets\Scripts\debug.cs" />
     <Compile Include="Assets\Scripts\lowplane.cs" />
@@ -96,17 +104,11 @@
     <Compile Include="Assets\UnityTechnologies\ParticlePack\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\SuperCamera.cs" />
     <Compile Include="Assets\Scripts\scroll.cs" />
-    <Compile Include="Assets\Scripts\sphere_script.cs" />
-    <Compile Include="Assets\Scripts\Switcher.cs" />
-    <Compile Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\Scripts\WheatColorChange.cs" />
-    <Compile Include="Assets\Scripts\statue_still.cs" />
     <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCamera.cs" />
-    <Compile Include="Assets\Scripts\SliderRotation.cs" />
-    <Compile Include="Assets\Scripts\canvas_camera.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\DevDunkStudio\ShadowReceiverURP\Shaders\CustomLighting.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\credits.txt" />
@@ -117,6 +119,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Magic Effects\Shaders\Ice.shader" />
     <None Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
+    <None Include="Assets\Materials\Shadow2.shader" />
     <None Include="Assets\Textures\NewSurfaceShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -125,6 +128,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Transparent.shader" />
+    <None Include="Assets\Materials\URP AR Shadow Receiver.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -771,8 +775,14 @@
     <Reference Include="Unity.XR.Management">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.MagicLeap">
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.MagicLeap.dll</HintPath>
@@ -794,6 +804,9 @@
     </Reference>
     <Reference Include="Unity.XR.ARCore">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -831,8 +844,8 @@
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation.VisualScripting">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.VisualScripting.dll</HintPath>
@@ -840,8 +853,14 @@
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.ARCore.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
@@ -861,6 +880,12 @@
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.007">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
     </Reference>
@@ -873,6 +898,12 @@
     <Reference Include="Unity.XR.ARFoundation">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
@@ -884,6 +915,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Tutorials.Core">
       <HintPath>Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
@@ -914,6 +948,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -957,8 +994,14 @@
     <Reference Include="UnityEngine.XR.MagicLeap">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.MagicLeap.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>

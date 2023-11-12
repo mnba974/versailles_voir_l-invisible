@@ -3,7 +3,12 @@ guid: bd15af389f4fb7f4f9ee5189f1b53394
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smallchestmat
+    second: {fileID: 2100000, guid: d3645bc9df38ce744b994fa214c626ed, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

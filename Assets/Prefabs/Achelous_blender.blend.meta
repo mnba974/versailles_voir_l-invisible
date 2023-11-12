@@ -3,7 +3,22 @@ guid: d0e9f0c316e6c974e87f0dccbb6352da
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 9f9f89598d3f08446bcc04809304840d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: archelous
+    second: {fileID: 2100000, guid: bcdd64cb3faaed749aa9461c6e5d996c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: archelous.001
+    second: {fileID: 2100000, guid: b97b97517f48f864fb65982c8d31dbd8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

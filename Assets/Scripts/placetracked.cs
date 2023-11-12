@@ -25,6 +25,7 @@ public class PlaceTrackedImages : MonoBehaviour
 
     public GameObject buttonsPanel;
     public Animator canvas;
+    
 
     void Awake()
     {
@@ -35,6 +36,7 @@ public class PlaceTrackedImages : MonoBehaviour
     {
         detect = GameObject.Find("detect");
         detect.SetActive(false);
+        
         
     }
 
@@ -58,6 +60,7 @@ public class PlaceTrackedImages : MonoBehaviour
         foreach (var trackedImage in eventArgs.added)
         {
             // Get the name of the reference image
+            
             var imageName = trackedImage.referenceImage.name;
             detect.SetActive(true);
 
@@ -96,7 +99,7 @@ public class PlaceTrackedImages : MonoBehaviour
             _instantiatedPrefabs[imageName].transform.position = new Vector3(trackedImage.transform.position.x + offset * Mathf.Sin(y), trackedImage.transform.position.y, trackedImage.transform.position.z + offset* MathF.Cos(y));
             _instantiatedPrefabs[imageName].transform.rotation = Quaternion.Euler(0, trackedImage.transform.rotation.eulerAngles.y, 0);
         }
+        
 
-
-        }
+    }
 }

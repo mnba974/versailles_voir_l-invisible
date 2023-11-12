@@ -33,37 +33,37 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Oil_Lamp_BaseColor.tga
-    second: {fileID: 2800000, guid: a55197d42e739804ba61843675d0fecc, type: 3}
+    second: {fileID: 2800000, guid: 7eed37d52ec8d5643b1459a7479fdad4, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Oil_Lamp_Metallic.tga
-    second: {fileID: 2800000, guid: a6ce3efe9db3e804e9f8df1d0ac12330, type: 3}
+    second: {fileID: 2800000, guid: 4c7f73af8c543bb448663a4d39a01678, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Oil_Lamp_Roughness.tga
-    second: {fileID: 2800000, guid: 3fab5e333ba77f5458cc2fe085a50134, type: 3}
+    second: {fileID: 2800000, guid: be9e47cf572cddb418ff831a6d7fbe05, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: barrel_Base_Color
-    second: {fileID: 2800000, guid: 952214c71ac85fb4b8c85426b3f7ea40, type: 3}
+    second: {fileID: 2800000, guid: 4a7bd35a4ccea824c98a3d0b612956c8, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: barrel_Metallic
-    second: {fileID: 2800000, guid: 843df427925c2794187151ae95dba7d0, type: 3}
+    second: {fileID: 2800000, guid: a9d537fdbbcc90243b6f7c726741a860, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: barrel_Roughness
-    second: {fileID: 2800000, guid: 785a223755daf7b499fd9dfbc616a1cb, type: 3}
+    second: {fileID: 2800000, guid: 8be33a4fd6670cf44b53f371e1f5ca25, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: diogene_LOD0_u0_v0_diffuse
-    second: {fileID: 2800000, guid: f6f570f8cf8d4934b811646d2fb92d19, type: 3}
+    second: {fileID: 2800000, guid: 91336bd7fd2627a468df35b9236f30b2, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3673153935827152339, guid: 4fc0e6c438fca00478c4fb33a826cb5f, type: 3}
+  - {fileID: 2100000, guid: 9b8427e1eda21a0468d540c525ec87a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemToGive: {fileID: 11400000, guid: c4b96327b26169f468b9fbc5009d8274, type: 2}
   m_RaycastManager: {fileID: 0}
+  objetDecouvert: {fileID: 0}
 --- !u!136 &1842125570379969961
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -136,7 +137,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f358e7a7fc68a04eaa27ecd934f0681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Magnitude: 0
   rotSpeed: 0.1
+  Image: {fileID: 0}
   rb: {fileID: 0}
 --- !u!54 &4835245812321391674
 Rigidbody:

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Bol de Diog\xE8ne"
   m_EditorClassIdentifier: 
   itemName: "Bol de Diog\xE8ne"
-  discovered: 1
+  discovered: 0
   prefab: {fileID: 158357245476389681, guid: 97de996a664689e4786de7a6ca9dfa9e, type: 3}
   itemSprite: {fileID: 21300000, guid: 4527c80ca3378d84e8acd75d71c32264, type: 3}
   description: 

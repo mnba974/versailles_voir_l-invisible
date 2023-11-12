@@ -3,7 +3,12 @@ guid: 058868aff247c0e4c980baf7c55c5097
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheat texture.042
+    second: {fileID: 2100000, guid: 309cfef261d75e842be63d01ae4894be, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

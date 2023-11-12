@@ -136,8 +136,11 @@ public class PlaceRotate : MonoBehaviour
 
             if (Input.GetTouch(0).phase == TouchPhase.Ended)
             {
-                
-             prefab = null;
+            if (lastPrefab == prefab) 
+                {
+                    prefab = null;
+                }
+             
              collide.enabled = true;
                 
             }
