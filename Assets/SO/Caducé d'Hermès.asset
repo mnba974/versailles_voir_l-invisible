@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70dca6fcfea475a42a68d74a07d4390d, type: 3}
-  m_Name: "Caduc\xE9"
+  m_Name: "Caduc\xE9 d'Herm\xE8s"
   m_EditorClassIdentifier: 
-  itemName: "Caduc\xE9"
+  itemName: "Caduc\xE9 d'Herm\xE8s"
   discovered: 0
   prefab: {fileID: 0}
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 5c2751b0632dcc8418e318b9392e9edc, type: 3}
   description: 
   UIScale: 1
+  statue: {fileID: 0}
