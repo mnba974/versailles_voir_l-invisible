@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: "Bo\xEEte de Pandore"
   discovered: 0
+  correctAnswer: 0
   prefab: {fileID: 5813192166834337374, guid: b776ce27f094e464bbf8110b3db299a4, type: 3}
   itemSprite: {fileID: 21300000, guid: 93e553b8e28ddd9468a08d85c34244e9, type: 3}
   description: "La bo\xEEte de Pandore, qui contient tous les maux du monde..."
   UIScale: 1
-  statue: {fileID: 4495600489118075847, guid: 0ef4a3d37c0105c4ea4ae56e1cb8b823, type: 3}
+  statue: {fileID: 7244710702336516626, guid: 2bd5545970576d049929423304e08575, type: 3}

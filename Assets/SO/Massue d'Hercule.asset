@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Massue d'Hercule
   discovered: 0
-  prefab: {fileID: 0}
+  correctAnswer: 0
+  prefab: {fileID: 3187697653732485345, guid: b6ec2b1a93b34b64c91182ee557d49a4, type: 3}
   itemSprite: {fileID: 21300000, guid: bc0b56f17980ebd4b836c281d6263597, type: 3}
   description: "La massue qui permet notamment \xE0 Hercule d'affronter le lion de
     N\xE9m\xE9e et l'hydre de Lerne."
-  UIScale: 1
-  statue: {fileID: 0}
+  UIScale: 200
+  statue: {fileID: 8035963227355840518, guid: a3c7f0c5b01e08c4cad11d52ca255322, type: 3}

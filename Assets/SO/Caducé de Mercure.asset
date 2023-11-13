@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: "Caduc\xE9 de Mercure"
   m_EditorClassIdentifier: 
   itemName: "Caduc\xE9 de Mercure"
-  discovered: 0
-  prefab: {fileID: 0}
+  discovered: 1
+  correctAnswer: 0
+  prefab: {fileID: 2833307940020356661, guid: 19cb91107f6eb9c44b62ce4c280d8d77, type: 3}
   itemSprite: {fileID: 21300000, guid: 5c2751b0632dcc8418e318b9392e9edc, type: 3}
   description: "Le caduc\xE9 : une baguette de laurier ou d'olivier, surmont\xE9e
     de deux ailes et entour\xE9e de deux serpents entrelac\xE9s."
-  UIScale: 1
-  statue: {fileID: 0}
+  UIScale: 1000
+  statue: {fileID: 7924459404983301889, guid: bb9ffede94d1a614395030316be4c034, type: 3}

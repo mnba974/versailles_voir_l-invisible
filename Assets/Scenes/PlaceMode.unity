@@ -3541,6 +3541,8 @@ MonoBehaviour:
   - {fileID: 3498138941387906767, guid: ed3f8cb9d58807841bd21d1e831088a7, type: 3}
   - {fileID: 7789848251158101273, guid: 4163ed89d6503c84989d77d64f384ffa, type: 3}
   - {fileID: 5406478228050470176, guid: a51e8fcaa2177f440a92cd9533913cce, type: 3}
+  - {fileID: 5153932341025284804, guid: 517a76bc5c2329f408b58f360ffaa5e5, type: 3}
+  - {fileID: 923124651081425329, guid: a0aab4e89147305459a53a54fae0005b, type: 3}
   prefab: {fileID: 0}
 --- !u!1001 &1468012846
 PrefabInstance:
