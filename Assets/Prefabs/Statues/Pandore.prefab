@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 3966620635469111680}
   - component: {fileID: 7701892855885089171}
   - component: {fileID: 1277397372741500819}
+  - component: {fileID: 7957005126954141600}
   m_Layer: 7
   m_Name: pandore_LOD0.007
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7957005126954141600
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341995577333552493}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -626406597510197951, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &372264597888743835
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,9 +117,10 @@ GameObject:
   - component: {fileID: 3368998689734527426}
   - component: {fileID: 1052208420049265971}
   - component: {fileID: 3279852063045481624}
+  - component: {fileID: 2536800080277317337}
   m_Layer: 7
   m_Name: pandore_LOD0.001
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -166,6 +190,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2536800080277317337
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372264597888743835}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7403558379856158376, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &793770993136835980
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,9 +223,10 @@ GameObject:
   - component: {fileID: 649346345468329186}
   - component: {fileID: 237481272286509196}
   - component: {fileID: 6630261655238744375}
+  - component: {fileID: 1037791548795569064}
   m_Layer: 7
   m_Name: pandore_LOD0.002
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -249,6 +296,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1037791548795569064
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793770993136835980}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2441987239987787991, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &1026180267835814632
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,9 +329,10 @@ GameObject:
   - component: {fileID: 6577795151685104328}
   - component: {fileID: 2850456158664229132}
   - component: {fileID: 798202505273369546}
+  - component: {fileID: 7867300709887434709}
   m_Layer: 7
   m_Name: pandore_LOD0.016
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -332,6 +402,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7867300709887434709
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026180267835814632}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6822039628411736765, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &1819078708942538383
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,9 +435,10 @@ GameObject:
   - component: {fileID: 4245515426897147793}
   - component: {fileID: 3009232420243207385}
   - component: {fileID: 1481286361430627910}
+  - component: {fileID: 3937489247954997866}
   m_Layer: 7
   m_Name: pandore_LOD0.027
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -415,6 +508,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3937489247954997866
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819078708942538383}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7648544041711105321, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &1927127336704257999
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,9 +541,10 @@ GameObject:
   - component: {fileID: 823417857165581894}
   - component: {fileID: 8784115468256723903}
   - component: {fileID: 4571148084190270674}
+  - component: {fileID: 1396274120685181574}
   m_Layer: 7
   m_Name: pandore_LOD0.009
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -498,6 +614,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1396274120685181574
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927127336704257999}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3523129037714100972, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &2239940406967585533
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,9 +647,10 @@ GameObject:
   - component: {fileID: 3865632511758445166}
   - component: {fileID: 6898943308768340650}
   - component: {fileID: 4255345285786353481}
+  - component: {fileID: 8108857129425570702}
   m_Layer: 7
   m_Name: pandore_LOD0.024
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -581,6 +720,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8108857129425570702
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2239940406967585533}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9077331570015640637, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &2446053749840009364
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,9 +753,10 @@ GameObject:
   - component: {fileID: 416993863722291079}
   - component: {fileID: 4146816360119616958}
   - component: {fileID: 5402460127126551954}
+  - component: {fileID: 2317042870900099342}
   m_Layer: 7
   m_Name: pandore_LOD0.014
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -664,6 +826,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2317042870900099342
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2446053749840009364}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4469753074849124878, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &3041544250986658709
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,9 +859,10 @@ GameObject:
   - component: {fileID: 5165795792914823089}
   - component: {fileID: 5499674167620388393}
   - component: {fileID: 3444676959932003687}
+  - component: {fileID: 2182488460970905562}
   m_Layer: 7
   m_Name: pandore_LOD0.013
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -747,6 +932,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2182488460970905562
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3041544250986658709}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2530195556256589909, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &3198019212669163217
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,9 +965,10 @@ GameObject:
   - component: {fileID: 7324810179893853891}
   - component: {fileID: 5455736094046792650}
   - component: {fileID: 782969733595345740}
+  - component: {fileID: 8152906258156558042}
   m_Layer: 7
   m_Name: pandore_LOD0.022
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -830,6 +1038,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8152906258156558042
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3198019212669163217}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8523366181805358514, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &3389610085431725181
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,9 +1071,10 @@ GameObject:
   - component: {fileID: 1387451824618868746}
   - component: {fileID: 1833551550423615613}
   - component: {fileID: 837761133223597712}
+  - component: {fileID: 2610389347377736744}
   m_Layer: 7
   m_Name: pandore_LOD0.003
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -913,6 +1144,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2610389347377736744
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3389610085431725181}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4471588175769487643, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &3599503898566581559
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,9 +1177,10 @@ GameObject:
   - component: {fileID: 509608276372719870}
   - component: {fileID: 6288494903088130960}
   - component: {fileID: 5475256372459593137}
+  - component: {fileID: 3811008963959862379}
   m_Layer: 7
   m_Name: pandore_LOD0.026
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -996,6 +1250,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3811008963959862379
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3599503898566581559}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5745614580112986363, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &4092037131807641261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,9 +1283,10 @@ GameObject:
   - component: {fileID: 4059898359678600915}
   - component: {fileID: 1133787857655593617}
   - component: {fileID: 1603896847242097739}
+  - component: {fileID: 7554346364686317848}
   m_Layer: 7
   m_Name: pandore_LOD0.008
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1079,6 +1356,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7554346364686317848
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4092037131807641261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3056764769035141271, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &4495600489118075847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,9 +1421,10 @@ GameObject:
   - component: {fileID: 6222712164689286276}
   - component: {fileID: 2892573284180417555}
   - component: {fileID: 2445846203922549446}
+  - component: {fileID: 1098513659106123760}
   m_Layer: 7
   m_Name: pandore_LOD0.019
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1194,6 +1494,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1098513659106123760
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4546281816618867953}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6110813205059134561, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &4708321138112660050
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,9 +1527,10 @@ GameObject:
   - component: {fileID: 2406753896014048727}
   - component: {fileID: 8896687502245323370}
   - component: {fileID: 2659187505631427469}
+  - component: {fileID: 1164743790342466199}
   m_Layer: 7
   m_Name: pandore_LOD0.030
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1277,6 +1600,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1164743790342466199
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4708321138112660050}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8110345246332569898, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &4765700711933732990
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,9 +1633,10 @@ GameObject:
   - component: {fileID: 3116082833168292649}
   - component: {fileID: 6589583622599745933}
   - component: {fileID: 2642481236606431457}
+  - component: {fileID: 8085873234020392903}
   m_Layer: 7
   m_Name: pandore_LOD0.020
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1360,6 +1706,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8085873234020392903
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4765700711933732990}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8030331751763859403, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &5337711927649162676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,9 +1739,10 @@ GameObject:
   - component: {fileID: 3882149157296494715}
   - component: {fileID: 7277205820564357276}
   - component: {fileID: 4163150291109787139}
+  - component: {fileID: 4409080633831803546}
   m_Layer: 7
   m_Name: pandore_LOD0.011
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1443,6 +1812,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4409080633831803546
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5337711927649162676}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3598932213836635865, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &5738563132963954663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,9 +1845,10 @@ GameObject:
   - component: {fileID: 4319555765471419029}
   - component: {fileID: 4701059852546939137}
   - component: {fileID: 4755761042306104193}
+  - component: {fileID: 2622448687070791536}
   m_Layer: 7
   m_Name: pandore_LOD0.023
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1526,6 +1918,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2622448687070791536
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5738563132963954663}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2026426440734858181, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &5790996932221714864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,9 +1951,10 @@ GameObject:
   - component: {fileID: 1163700457734009925}
   - component: {fileID: 2250907014933433590}
   - component: {fileID: 879142725658688856}
+  - component: {fileID: 296303374696353609}
   m_Layer: 7
   m_Name: pandore_LOD0.004
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1609,6 +2024,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &296303374696353609
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5790996932221714864}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1590774540960626339, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &5964354750194701730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,9 +2057,10 @@ GameObject:
   - component: {fileID: 416733557908528144}
   - component: {fileID: 4894220897044742914}
   - component: {fileID: 6669127240795251544}
+  - component: {fileID: 2067328667824367046}
   m_Layer: 7
   m_Name: pandore_LOD0.025
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1692,6 +2130,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2067328667824367046
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5964354750194701730}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7965367345265404257, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &6141228867106575440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1705,6 +2165,7 @@ GameObject:
   - component: {fileID: 3932478420503205339}
   - component: {fileID: 7304235635789214586}
   - component: {fileID: 1497571092648069525}
+  - component: {fileID: 3705114490422938694}
   m_Layer: 7
   m_Name: UI_OBJ
   m_TagString: Statue
@@ -1849,6 +2310,28 @@ MonoBehaviour:
   rotSpeed: 0.1
   Image: {fileID: 0}
   rb: {fileID: 0}
+--- !u!64 &3705114490422938694
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6141228867106575440}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9084526065911178893, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &6236931386441233593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1860,9 +2343,10 @@ GameObject:
   - component: {fileID: 6399084638569995901}
   - component: {fileID: 3319620903837422009}
   - component: {fileID: 3160680683023357380}
+  - component: {fileID: 7135655470923504278}
   m_Layer: 7
   m_Name: pandore_LOD0.010
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1932,6 +2416,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7135655470923504278
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6236931386441233593}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 734596654953959974, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &6600487416012577659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,9 +2449,10 @@ GameObject:
   - component: {fileID: 5489438719555698087}
   - component: {fileID: 8119812758168150370}
   - component: {fileID: 5980962886783288429}
+  - component: {fileID: 4388564112056263461}
   m_Layer: 7
   m_Name: pandore_LOD0.012
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2015,6 +2522,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4388564112056263461
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6600487416012577659}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8245312685319525466, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &6695907956993496183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,9 +2555,10 @@ GameObject:
   - component: {fileID: 4299944578335042306}
   - component: {fileID: 6454636408014898837}
   - component: {fileID: 1107039055492345556}
+  - component: {fileID: 4531936024796650406}
   m_Layer: 7
   m_Name: pandore_LOD0.021
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2098,6 +2628,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4531936024796650406
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6695907956993496183}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7481157700626874917, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &7453141605696259680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,9 +2661,10 @@ GameObject:
   - component: {fileID: 3270861268169636266}
   - component: {fileID: 8632219101820434231}
   - component: {fileID: 1486805256321889974}
+  - component: {fileID: 1088304391323402058}
   m_Layer: 7
   m_Name: pandore_LOD0.029
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2181,6 +2734,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1088304391323402058
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7453141605696259680}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2697393291621606400, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &7716416158355670184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2192,9 +2767,10 @@ GameObject:
   - component: {fileID: 7376282961122596973}
   - component: {fileID: 9217858080233438245}
   - component: {fileID: 6910364535272631662}
+  - component: {fileID: 2302020287648382302}
   m_Layer: 7
   m_Name: pandore_LOD0.006
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2264,6 +2840,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2302020287648382302
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7716416158355670184}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8807418420305044586, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &7909156029476659026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2275,9 +2873,10 @@ GameObject:
   - component: {fileID: 3847809575644290692}
   - component: {fileID: 7241160057720783174}
   - component: {fileID: 3991913969142106093}
+  - component: {fileID: 5679909125270041724}
   m_Layer: 7
   m_Name: pandore_LOD0.005
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2347,6 +2946,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5679909125270041724
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909156029476659026}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2340593296128536361, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &8082178496427894020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2358,9 +2979,10 @@ GameObject:
   - component: {fileID: 3159939975026134352}
   - component: {fileID: 5646146916027745823}
   - component: {fileID: 6890782261778680957}
+  - component: {fileID: 3187557869391863100}
   m_Layer: 7
   m_Name: pandore_LOD0.028
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2430,6 +3052,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3187557869391863100
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8082178496427894020}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3596326898955055493, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &8242302507210704595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,9 +3085,10 @@ GameObject:
   - component: {fileID: 931337784992970356}
   - component: {fileID: 3446982779385161413}
   - component: {fileID: 7201989473039376825}
+  - component: {fileID: 705117847948530667}
   m_Layer: 7
   m_Name: pandore_LOD0.018
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2513,6 +3158,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &705117847948530667
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8242302507210704595}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4703899513647092229, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &8775910860869115739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2524,9 +3191,10 @@ GameObject:
   - component: {fileID: 5674262951499447768}
   - component: {fileID: 5777202975275398279}
   - component: {fileID: 5706461566420290093}
+  - component: {fileID: 1811686943575092134}
   m_Layer: 7
   m_Name: pandore_LOD0.017
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2596,3 +3264,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1811686943575092134
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8775910860869115739}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1087975271459978582, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
