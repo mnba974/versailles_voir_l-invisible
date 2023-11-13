@@ -595,10 +595,10 @@ RectTransform:
   - {fileID: 7286044924366544320}
   m_Father: {fileID: 2194643770541514514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 325, y: -530}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7695678315823372840
 CanvasRenderer:
@@ -2165,7 +2165,7 @@ GameObject:
   - component: {fileID: 7869411771803799875}
   - component: {fileID: 17369398664255597}
   m_Layer: 5
-  m_Name: "Caduc\xE9 d'Herm\xE8s"
+  m_Name: "Caduc\xE9 de Mercure"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2186,10 +2186,10 @@ RectTransform:
   - {fileID: 5691568532356080110}
   m_Father: {fileID: 2194643770541514514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 110, y: -950}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7869411771803799875
 CanvasRenderer:
@@ -2262,10 +2262,10 @@ RectTransform:
   - {fileID: 2673148637269794978}
   m_Father: {fileID: 2194643770541514514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 110, y: -320}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2769697721874572887
 CanvasRenderer:
@@ -3459,7 +3459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &579516361054728733
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5655,17 +5655,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dieu des voyageurs et des voleurs, il guide les h\xE9ros et conduit leurs
-    \xE2mes aux Enfers. Il bondit de son berceau quelques instants seulement apr\xE8s
-    sa naissance, et se met en qu\xEAte du troupeau de son demi-fr\xE8re Apollon.
-    Sur son chemin, d\u2019une carapace de tortue il fait une lyre sur laquelle il
-    c\xE9l\xE8bre sa propre naissance ainsi que la demeure de sa m\xE8re. Quelque
-    temps plus tard, il invente la fl\xFBte de Pan. Apollon ayant d\xE9couvert qu\u2019il
-    lui avait d\xE9rob\xE9 cinquante b\u0153ufs, il porte l\u2019affaire devant Zeus
-    qui ordonne la r\xE9conciliation. Herm\xE8s donne sa lyre tandis qu\u2019Apollon
-    lui donne une baguette d\u2019or, le futur caduc\xE9e. ses amours sont aussi
-    bien f\xE9minines (nymphes) que masculines (Pollux, fr\xE8re jumeau de Castor
-    et le bel Anth\xE9os d\u2019Assessos)."
+  m_text: "Dieu des voyageurs et des voleurs, Mercure (aussi connu sous le nom d'Herm\xE8s)
+    guide les h\xE9ros et conduit leurs \xE2mes aux Enfers. Il bondit de son berceau
+    quelques instants seulement apr\xE8s sa naissance, et se met en qu\xEAte du troupeau
+    de son demi-fr\xE8re Apollon. Sur son chemin, d\u2019une carapace de tortue il
+    fait une lyre sur laquelle il c\xE9l\xE8bre sa propre naissance ainsi que la
+    demeure de sa m\xE8re. Quelque temps plus tard, il invente la fl\xFBte de Pan.
+    Apollon ayant d\xE9couvert qu\u2019il lui avait d\xE9rob\xE9 cinquante b\u0153ufs,
+    il porte l\u2019affaire devant Zeus qui ordonne la r\xE9conciliation. Herm\xE8s
+    donne sa lyre tandis qu\u2019Apollon lui donne une baguette d\u2019or, le futur
+    caduc\xE9e. ses amours sont aussi bien f\xE9minines (nymphes) que masculines
+    (Pollux, fr\xE8re jumeau de Castor et le bel Anth\xE9os d\u2019Assessos)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a8cd7c6b4a29a454cbd373bfc97e2a04, type: 2}
   m_sharedMaterial: {fileID: -1501419665908413111, guid: a8cd7c6b4a29a454cbd373bfc97e2a04,
@@ -5768,10 +5768,10 @@ RectTransform:
   - {fileID: 8554919075651862198}
   m_Father: {fileID: 2194643770541514514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 325, y: -110}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5547219513815072044
 CanvasRenderer:
@@ -7115,10 +7115,10 @@ RectTransform:
   - {fileID: 5960061218001829029}
   m_Father: {fileID: 2194643770541514514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 110, y: -110}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1633971550921883254
 CanvasRenderer:
@@ -7191,10 +7191,10 @@ RectTransform:
   - {fileID: 6434752706424955615}
   m_Father: {fileID: 2194643770541514514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 110, y: -530}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4741606341882975237
 CanvasRenderer:
@@ -7673,10 +7673,10 @@ RectTransform:
   - {fileID: 924074049783561504}
   m_Father: {fileID: 2194643770541514514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 325, y: -320}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8203221623115339997
 CanvasRenderer:
@@ -7836,7 +7836,7 @@ GameObject:
   - component: {fileID: 5473962499264230370}
   - component: {fileID: 497751970290050270}
   m_Layer: 5
-  m_Name: Hercules
+  m_Name: Hercule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8715,7 +8715,7 @@ GameObject:
   - component: {fileID: 5118175376279219243}
   - component: {fileID: 8594374972447944891}
   m_Layer: 5
-  m_Name: Hercules
+  m_Name: Hercule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9359,10 +9359,10 @@ RectTransform:
   - {fileID: 3830750562435882802}
   m_Father: {fileID: 2194643770541514514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 110, y: -740}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6100987946744987802
 CanvasRenderer:
@@ -11345,7 +11345,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.001953125}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 212.42938}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2997010268885917803
 MonoBehaviour:
@@ -11397,7 +11397,7 @@ GameObject:
   - component: {fileID: 8894665419112296806}
   - component: {fileID: 8448627989674994825}
   m_Layer: 5
-  m_Name: Massue d'Hercules
+  m_Name: Massue d'Hercule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11418,10 +11418,10 @@ RectTransform:
   - {fileID: 2665188633267249794}
   m_Father: {fileID: 2194643770541514514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 325, y: -740}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8894665419112296806
 CanvasRenderer:
@@ -11843,10 +11843,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2194643770541514514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 325, y: -950}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1030163221226635295
 CanvasRenderer:

@@ -204,8 +204,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0, y: 0.25}
-  m_SizeDelta: {x: 0, y: -131.09}
+  m_AnchoredPosition: {x: 0, y: 0.32170105}
+  m_SizeDelta: {x: 0, y: -167.724}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3118898514230496454
 CanvasRenderer:
@@ -572,7 +572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3279.0002}
+  m_AnchoredPosition: {x: 0, y: -3104.0002}
   m_SizeDelta: {x: 421.8888, y: 497.15283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8499473329035222547
@@ -955,7 +955,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3279.0002}
+  m_AnchoredPosition: {x: 0, y: -3104.0002}
   m_SizeDelta: {x: 421.8888, y: 497.15283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6360938775563282258
@@ -1608,7 +1608,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 39.947144}
+  m_SizeDelta: {x: 0, y: 208.32336}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &7273964606153152253
 MonoBehaviour:
@@ -1820,7 +1820,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 0, y: -131.6}
+  m_SizeDelta: {x: 0, y: -168.3762}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1794228620781851059
 CanvasRenderer:
@@ -2557,7 +2557,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 39.947144}
+  m_SizeDelta: {x: 0, y: 208.32336}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &8650019274269795900
 MonoBehaviour:
@@ -2633,7 +2633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3279.0002}
+  m_AnchoredPosition: {x: 0, y: -3104.0002}
   m_SizeDelta: {x: 421.8888, y: 497.15283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5921713925373405378
@@ -2803,7 +2803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8235294, g: 0.5921569, b: 0.24313726, a: 1}
+  m_Color: {r: 0.735849, g: 0.527371, b: 0.21288711, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2989,7 +2989,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3279.0002}
+  m_AnchoredPosition: {x: 0, y: -3104.0002}
   m_SizeDelta: {x: 421.8888, y: 497.15283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6444635614463182087
@@ -3232,7 +3232,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 0, y: -131.6}
+  m_SizeDelta: {x: 0, y: -168.3762}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1569286696396662980
 CanvasRenderer:
@@ -3321,7 +3321,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3279.0002}
+  m_AnchoredPosition: {x: 0, y: -3104.0002}
   m_SizeDelta: {x: 421.8888, y: 497.15283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8161791827773316359
@@ -4212,7 +4212,7 @@ GameObject:
   - component: {fileID: 4761337520770153746}
   - component: {fileID: 9013667645586705106}
   m_Layer: 5
-  m_Name: Massue d'Hercules
+  m_Name: Massue d'Hercule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4597,7 +4597,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3279.0002}
+  m_AnchoredPosition: {x: 0, y: -3104.0002}
   m_SizeDelta: {x: 421.8888, y: 497.15283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5639534189913193792
@@ -4705,7 +4705,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 0, y: -131.6}
+  m_SizeDelta: {x: 0, y: -168.3762}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1611020677071757831
 CanvasRenderer:
@@ -5032,7 +5032,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 0, y: -131.6}
+  m_SizeDelta: {x: 0, y: -168.3762}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &7272689504332040910
 CanvasRenderer:
@@ -5580,7 +5580,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 0, y: -131.6}
+  m_SizeDelta: {x: 0, y: -168.3762}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &6213349530952140480
 CanvasRenderer:
@@ -5896,7 +5896,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 39.947144}
+  m_SizeDelta: {x: 0, y: 208.32336}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3412184304630651966
 MonoBehaviour:
@@ -6641,17 +6641,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dieu des voyageurs et des voleurs, il guide les h\xE9ros et conduit leurs
-    \xE2mes aux Enfers. Il bondit de son berceau quelques instants seulement apr\xE8s
-    sa naissance, et se met en qu\xEAte du troupeau de son demi-fr\xE8re Apollon.
-    Sur son chemin, d\u2019une carapace de tortue il fait une lyre sur laquelle il
-    c\xE9l\xE8bre sa propre naissance ainsi que la demeure de sa m\xE8re. Quelque
-    temps plus tard, il invente la fl\xFBte de Pan. Apollon ayant d\xE9couvert qu\u2019il
-    lui avait d\xE9rob\xE9 cinquante b\u0153ufs, il porte l\u2019affaire devant Zeus
-    qui ordonne la r\xE9conciliation. Herm\xE8s donne sa lyre tandis qu\u2019Apollon
-    lui donne une baguette d\u2019or, le futur caduc\xE9e. ses amours sont aussi
-    bien f\xE9minines (nymphes) que masculines (Pollux, fr\xE8re jumeau de Castor
-    et le bel Anth\xE9os d\u2019Assessos)."
+  m_text: "Dieu des voyageurs et des voleurs, Mercure (aussi connu sous le nom d'Herm\xE8s)
+    guide les h\xE9ros et conduit leurs \xE2mes aux Enfers. Il bondit de son berceau
+    quelques instants seulement apr\xE8s sa naissance, et se met en qu\xEAte du troupeau
+    de son demi-fr\xE8re Apollon. Sur son chemin, d\u2019une carapace de tortue il
+    fait une lyre sur laquelle il c\xE9l\xE8bre sa propre naissance ainsi que la
+    demeure de sa m\xE8re. Quelque temps plus tard, il invente la fl\xFBte de Pan.
+    Apollon ayant d\xE9couvert qu\u2019il lui avait d\xE9rob\xE9 cinquante b\u0153ufs,
+    il porte l\u2019affaire devant Zeus qui ordonne la r\xE9conciliation. Herm\xE8s
+    donne sa lyre tandis qu\u2019Apollon lui donne une baguette d\u2019or, le futur
+    caduc\xE9e. ses amours sont aussi bien f\xE9minines (nymphes) que masculines
+    (Pollux, fr\xE8re jumeau de Castor et le bel Anth\xE9os d\u2019Assessos)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a8cd7c6b4a29a454cbd373bfc97e2a04, type: 2}
   m_sharedMaterial: {fileID: -1501419665908413111, guid: a8cd7c6b4a29a454cbd373bfc97e2a04,
@@ -6733,7 +6733,7 @@ GameObject:
   - component: {fileID: 1600370273295729046}
   - component: {fileID: 8650339177055297}
   m_Layer: 5
-  m_Name: "Caduc\xE9 d'Herm\xE8s"
+  m_Name: "Caduc\xE9 de Mercure"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6833,7 +6833,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 39.947144}
+  m_SizeDelta: {x: 0, y: 208.32336}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2903077570601807687
 MonoBehaviour:
@@ -7134,7 +7134,7 @@ GameObject:
   - component: {fileID: 629853579605738555}
   - component: {fileID: 6985456150181403872}
   m_Layer: 5
-  m_Name: Hercules
+  m_Name: Hercule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7954,7 +7954,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hercules
+  m_text: Hercule
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a8cd7c6b4a29a454cbd373bfc97e2a04, type: 2}
   m_sharedMaterial: {fileID: -1501419665908413111, guid: a8cd7c6b4a29a454cbd373bfc97e2a04,
@@ -8733,7 +8733,7 @@ GameObject:
   - component: {fileID: 1639693197822967446}
   - component: {fileID: 8322880625027768124}
   m_Layer: 5
-  m_Name: Hercules
+  m_Name: Hercule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8756,7 +8756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3279.0002}
+  m_AnchoredPosition: {x: 0, y: -3104.0002}
   m_SizeDelta: {x: 421.8888, y: 497.15283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &376708315278851405
@@ -9131,7 +9131,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 39.947144}
+  m_SizeDelta: {x: 0, y: 208.32336}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &5249746525478534854
 MonoBehaviour:
@@ -9601,7 +9601,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 39.947144}
+  m_SizeDelta: {x: 0, y: 208.32336}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3189877819560745813
 MonoBehaviour:
@@ -9677,7 +9677,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 39.947144}
+  m_SizeDelta: {x: 0, y: 208.32336}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &7993640062334776304
 MonoBehaviour:
@@ -10135,7 +10135,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 0, y: -131.6}
+  m_SizeDelta: {x: 0, y: -168.3762}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2170911438873067283
 CanvasRenderer:
@@ -10495,7 +10495,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 0, y: -131.6}
+  m_SizeDelta: {x: 0, y: -168.3762}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3766506171397805588
 CanvasRenderer:
@@ -10793,7 +10793,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 172.95999}
+  m_SizeDelta: {x: 0, y: 209.594}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &892126446964110286
 MonoBehaviour:
@@ -10869,7 +10869,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3279}
+  m_AnchoredPosition: {x: 0, y: -3104}
   m_SizeDelta: {x: 421.8888, y: 495.22998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8403144161525394713
@@ -10977,7 +10977,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 0, y: -131.6}
+  m_SizeDelta: {x: 0, y: -168.3762}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &8838831857572811984
 CanvasRenderer:
@@ -11275,7 +11275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3279.0002}
+  m_AnchoredPosition: {x: 0, y: -3104.0002}
   m_SizeDelta: {x: 421.8888, y: 497.15283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6551759910111835168
@@ -11599,7 +11599,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 3614}
+  m_AnchoredPosition: {x: 0, y: 3942}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4613534208996287692
@@ -11808,7 +11808,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 39.947144}
+  m_SizeDelta: {x: 0, y: 208.32336}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3092144987717002808
 MonoBehaviour:
