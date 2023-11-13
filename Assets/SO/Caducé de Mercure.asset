@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70dca6fcfea475a42a68d74a07d4390d, type: 3}
-  m_Name: Massue d'Hercules
+  m_Name: "Caduc\xE9 de Mercure"
   m_EditorClassIdentifier: 
-  itemName: Massue d'Hercules
+  itemName: "Caduc\xE9 de Mercure"
   discovered: 0
   prefab: {fileID: 0}
-  itemSprite: {fileID: 21300000, guid: bc0b56f17980ebd4b836c281d6263597, type: 3}
-  description: 
+  itemSprite: {fileID: 21300000, guid: 5c2751b0632dcc8418e318b9392e9edc, type: 3}
+  description: "Le caduc\xE9 : une baguette de laurier ou d'olivier, surmont\xE9e
+    de deux ailes et entour\xE9e de deux serpents entrelac\xE9s."
   UIScale: 1
   statue: {fileID: 0}

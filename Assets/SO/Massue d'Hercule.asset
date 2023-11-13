@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70dca6fcfea475a42a68d74a07d4390d, type: 3}
-  m_Name: "Caduc\xE9"
+  m_Name: Massue d'Hercule
   m_EditorClassIdentifier: 
-  itemName: "Caduc\xE9"
+  itemName: Massue d'Hercule
   discovered: 0
   prefab: {fileID: 0}
-  itemSprite: {fileID: 0}
-  description: 
+  itemSprite: {fileID: 21300000, guid: bc0b56f17980ebd4b836c281d6263597, type: 3}
+  description: "La massueq ui permet notamment \xE0 Hercule d'affronter le lion de
+    N\xE9m\xE9e et l'hydre de Lerne."
   UIScale: 1
+  statue: {fileID: 0}
