@@ -267,6 +267,7 @@ MonoBehaviour:
   QAPanel: {fileID: 7555807022991083248}
   CAPanel: {fileID: 6970737989179272359}
   WAPanel: {fileID: 265214761470632055}
+  item: {fileID: 11400000, guid: 34ff29dd6947e214e90687988487acd5, type: 2}
 --- !u!1001 &4310442909507276387
 PrefabInstance:
   m_ObjectHideFlags: 0

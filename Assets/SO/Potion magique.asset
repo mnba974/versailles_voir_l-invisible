@@ -19,4 +19,4 @@ MonoBehaviour:
   description: "Une potion bien myst\xE9rieuse, faite par une sorci\xE8re de renom.\nSon
     \xE9clat ros\xE9 rappelle la couleur d'un certain animal..."
   UIScale: 40
-  statue: {fileID: 6114545595438428688, guid: 79599dc444ffea241ad81825e83be47e, type: 3}
+  statue: {fileID: 4732778382164775869, guid: 19eedc55cdd5d2f4dbacfa02813d5a8e, type: 3}

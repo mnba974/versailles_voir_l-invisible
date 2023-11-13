@@ -7,6 +7,7 @@ public class ItemSO : ScriptableObject
 {
     public string itemName;
     public bool discovered = false;
+    public bool correctAnswer = false;
     public GameObject prefab;
     public Sprite itemSprite;
     [TextArea]

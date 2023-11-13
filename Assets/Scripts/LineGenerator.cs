@@ -26,7 +26,7 @@ public class LineGenerator : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.gameObject.CompareTag("spawnable"))
+                if (hit.collider.gameObject.CompareTag("Statue"))
                 {
                     newLine = Instantiate(linePrefab);
                     newLine.transform.SetParent(hit.transform, true);
@@ -49,7 +49,7 @@ public class LineGenerator : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.gameObject.CompareTag("spawnable"))
+                if (hit.collider.gameObject.CompareTag("Statue"))
                 {
                     activeLine.UpdateLine(hit.point);
                 }

@@ -75,6 +75,7 @@ MonoBehaviour:
   QAPanel: {fileID: 8814376633789305967}
   CAPanel: {fileID: 8229312274478874168}
   WAPanel: {fileID: 1236046537607312104}
+  item: {fileID: 11400000, guid: 6dff84dab92ff4048961ad853314a3b9, type: 2}
 --- !u!1 &1854915534365790528
 GameObject:
   m_ObjectHideFlags: 0
