@@ -10,14 +10,26 @@ public class Inventory : MonoBehaviour
     public GameObject showPanel;
     public GameObject inventoryPanel;
     public GameObject backButton;
+    public List<ItemSO> items;
 
     private List<ItemSO> itemList = new List<ItemSO>();
 
     public ItemSO easterEgg;
+    public List<string> list;
     
+    
+   
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
+        list = MainManager.Instance.items;
+        foreach(var item in items)
+        {
+            if (list.Contains(item.name))
+            {
+                AddItem(item);
+            }
+        }
         
     }
 
@@ -30,7 +42,10 @@ public class Inventory : MonoBehaviour
     public void AddItem(ItemSO itemToAdd)
     {
         Transform item = content.transform.Find(itemToAdd.itemName);
-        
+        if (!list.Contains(itemToAdd.name))
+        {
+            MainManager.Instance.items.Add(itemToAdd.name);
+        }
         if (item != null)
         {
             item.GetChild(0).GetComponent<Image>().sprite = itemToAdd.itemSprite;
@@ -38,14 +53,14 @@ public class Inventory : MonoBehaviour
             itemList.Add(itemToAdd);
         }
 
-        if (itemList.Count == 9)
+        if (list.Count >= 9)
         {
             Transform item2 = content.transform.Find(easterEgg.itemName);
             if (item2 != null)
             {
                 item2.GetChild(0).GetComponent<Image>().sprite = easterEgg.itemSprite;
                 easterEgg.discovered = true;
-                itemList.Add(itemToAdd);
+                list.Add(itemToAdd.name);
             }
 
             ShowItem(easterEgg);

@@ -81,8 +81,9 @@ public class BommerMode : MonoBehaviour
                 {
                     // Instantiate the prefab, parenting it to the ARTrackedImage
                     var newPrefab = Instantiate(curPrefab);
+                    
                     newPrefab.transform.GetChild(0).GetComponent<RotateInUI>().enabled = false;
-
+                    Destroy(newPrefab.transform.GetChild(0).GetComponent<Rigidbody>());
 
                     // Add the created prefab to our array
                     float y = trackedImage.transform.rotation.eulerAngles.y * MathF.PI / 180.0f;

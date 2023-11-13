@@ -20,6 +20,8 @@ public class PlaceRotate : MonoBehaviour
 
     // List of prefabs to instantiate - these should be named the same
     // as their corresponding 2D images in the reference image library 
+    
+    public Animator canvas;
 
     public GameObject[] ArPrefabs;
 
@@ -65,12 +67,15 @@ public class PlaceRotate : MonoBehaviour
             var imageName = trackedImage.referenceImage.name;
             detect.SetActive(true);
             toucheSol.SetActive(true);
+
             Transform button = buttonsPanel.transform.Find(imageName);
 
             if (button != null)
             {
                 button.GetComponent<Image>().color = Color.white;
             }
+
+            canvas.SetTrigger("infos");
             // Now loop over the array of prefabs
             foreach (var curPrefab in ArPrefabs)
             {

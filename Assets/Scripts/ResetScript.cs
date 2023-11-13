@@ -10,7 +10,7 @@ public class ResetScript : MonoBehaviour
 {
     
     public ARSession arsession;
-    public List<ItemSO> Items;
+    
     void Start()
     {
         
@@ -24,12 +24,10 @@ public class ResetScript : MonoBehaviour
     }
     public void Reset()
     {
-        foreach (ItemSO item in Items)
-        {
-            item.discovered = false;
-        }
+        
         PlaceTrackedImages._instantiatedPrefabs.Clear();
         PlaceRotate._instantiatedPrefabs.Clear();
+        BommerMode._instantiatedPrefabs.Clear();
         arsession.Reset();
         SceneManager.LoadScene("Menu");
         

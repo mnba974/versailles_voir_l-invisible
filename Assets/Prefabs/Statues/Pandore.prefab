@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8266178962437997266}
   - component: {fileID: 4889361547700260328}
   - component: {fileID: 9056754424064506207}
+  - component: {fileID: 1431852376878404790}
   m_Layer: 7
   m_Name: pandore_LOD0.026
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,12 +27,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216171483425190}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &4889361547700260328
 MeshFilter:
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1431852376878404790
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216171483425190}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5745614580112986363, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &127909698756852287
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,9 +117,10 @@ GameObject:
   - component: {fileID: 8443609066425920264}
   - component: {fileID: 2523989755547378}
   - component: {fileID: 3509212648570948282}
+  - component: {fileID: 1761104856901846685}
   m_Layer: 7
   m_Name: pandore_LOD0.007
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,12 +133,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127909698756852287}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &2523989755547378
 MeshFilter:
@@ -166,6 +190,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1761104856901846685
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127909698756852287}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -626406597510197951, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &187870981822180063
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,9 +223,10 @@ GameObject:
   - component: {fileID: 6427127679423045054}
   - component: {fileID: 3154892961456038490}
   - component: {fileID: 857463045378802807}
+  - component: {fileID: 7610743668228497927}
   m_Layer: 7
   m_Name: pandore_LOD0.030
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,12 +239,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187870981822180063}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &3154892961456038490
 MeshFilter:
@@ -249,6 +296,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7610743668228497927
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187870981822180063}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8110345246332569898, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &241649882265606119
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,9 +329,10 @@ GameObject:
   - component: {fileID: 4876756010805502491}
   - component: {fileID: 2866461530387027811}
   - component: {fileID: 1096405737175157810}
+  - component: {fileID: 2898352362238851360}
   m_Layer: 7
   m_Name: pandore_LOD0.019
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -275,12 +345,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241649882265606119}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &2866461530387027811
 MeshFilter:
@@ -332,6 +402,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2898352362238851360
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241649882265606119}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6110813205059134561, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &397183312544401028
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,9 +435,10 @@ GameObject:
   - component: {fileID: 2680424789214683607}
   - component: {fileID: 7923019372845779768}
   - component: {fileID: 8125154071870003970}
+  - component: {fileID: 7427737459445782818}
   m_Layer: 7
   m_Name: pandore_LOD0.028
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -358,12 +451,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397183312544401028}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &7923019372845779768
 MeshFilter:
@@ -415,6 +508,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7427737459445782818
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397183312544401028}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3596326898955055493, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &834926847826209282
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,9 +541,10 @@ GameObject:
   - component: {fileID: 5465263909206864117}
   - component: {fileID: 119948360893808747}
   - component: {fileID: 2127021431278479333}
+  - component: {fileID: 7469189970770248387}
   m_Layer: 7
   m_Name: pandore_LOD0.016
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -441,12 +557,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834926847826209282}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &119948360893808747
 MeshFilter:
@@ -498,6 +614,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7469189970770248387
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834926847826209282}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6822039628411736765, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &1071555744985542670
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,9 +647,10 @@ GameObject:
   - component: {fileID: 6528234231617377779}
   - component: {fileID: 7731621949957948500}
   - component: {fileID: 382012530515723720}
+  - component: {fileID: 22628163475662404}
   m_Layer: 7
   m_Name: pandore_LOD0.010
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -524,12 +663,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071555744985542670}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &7731621949957948500
 MeshFilter:
@@ -581,6 +720,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &22628163475662404
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071555744985542670}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 734596654953959974, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &1106091816423462408
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,9 +753,10 @@ GameObject:
   - component: {fileID: 7452126320640719579}
   - component: {fileID: 1242488349004604395}
   - component: {fileID: 4181062351386369463}
+  - component: {fileID: 1273492033830937616}
   m_Layer: 7
   m_Name: pandore_LOD0.011
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -607,12 +769,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106091816423462408}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &1242488349004604395
 MeshFilter:
@@ -664,6 +826,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1273492033830937616
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106091816423462408}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3598932213836635865, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &1497319585924573631
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,9 +859,10 @@ GameObject:
   - component: {fileID: 1008927916769959596}
   - component: {fileID: 7746944162663938421}
   - component: {fileID: 3686042949956642174}
+  - component: {fileID: 7154178790816830327}
   m_Layer: 7
   m_Name: pandore_LOD0.022
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -690,12 +875,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497319585924573631}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &7746944162663938421
 MeshFilter:
@@ -747,6 +932,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7154178790816830327
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497319585924573631}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8523366181805358514, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &2006490913208418194
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,9 +965,10 @@ GameObject:
   - component: {fileID: 3184845537540468715}
   - component: {fileID: 3022183284364112812}
   - component: {fileID: 7848774300084974053}
+  - component: {fileID: 5099811432379670914}
   m_Layer: 7
   m_Name: pandore_LOD0.027
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -773,12 +981,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2006490913208418194}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &3022183284364112812
 MeshFilter:
@@ -830,6 +1038,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5099811432379670914
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006490913208418194}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7648544041711105321, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &2323735893269480604
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,9 +1071,10 @@ GameObject:
   - component: {fileID: 7700158688997870135}
   - component: {fileID: 1671942112049765344}
   - component: {fileID: 1172947036649951120}
+  - component: {fileID: 4364120815624562249}
   m_Layer: 7
   m_Name: pandore_LOD0.017
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -856,12 +1087,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2323735893269480604}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &1671942112049765344
 MeshFilter:
@@ -913,6 +1144,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4364120815624562249
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2323735893269480604}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1087975271459978582, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &3136679613233638181
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,9 +1177,10 @@ GameObject:
   - component: {fileID: 8092905373223846733}
   - component: {fileID: 396769878969730700}
   - component: {fileID: 4892327632112920789}
+  - component: {fileID: 1506501835271036245}
   m_Layer: 7
   m_Name: pandore_LOD0.029
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -939,12 +1193,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3136679613233638181}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &396769878969730700
 MeshFilter:
@@ -996,6 +1250,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1506501835271036245
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3136679613233638181}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2697393291621606400, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &3645379481635203637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,9 +1283,10 @@ GameObject:
   - component: {fileID: 3263815952089525480}
   - component: {fileID: 7058734148176985030}
   - component: {fileID: 7819847855319790757}
+  - component: {fileID: 7979644800811697215}
   m_Layer: 7
   m_Name: pandore_LOD0.001
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1022,12 +1299,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3645379481635203637}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &7058734148176985030
 MeshFilter:
@@ -1079,6 +1356,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7979644800811697215
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3645379481635203637}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7403558379856158376, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &3829671587398633601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,9 +1389,10 @@ GameObject:
   - component: {fileID: 5710725902335057414}
   - component: {fileID: 729833629876661076}
   - component: {fileID: 500584627274087526}
+  - component: {fileID: 6349777856098232737}
   m_Layer: 7
   m_Name: pandore_LOD0.005
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1105,12 +1405,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3829671587398633601}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &729833629876661076
 MeshFilter:
@@ -1162,6 +1462,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6349777856098232737
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3829671587398633601}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2340593296128536361, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &4082134317239291119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,9 +1495,10 @@ GameObject:
   - component: {fileID: 2905874175782709194}
   - component: {fileID: 3752920802149708364}
   - component: {fileID: 5170690659683100871}
+  - component: {fileID: 5206990871856744243}
   m_Layer: 7
   m_Name: pandore_LOD0.015
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1188,12 +1511,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4082134317239291119}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &3752920802149708364
 MeshFilter:
@@ -1245,6 +1568,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5206990871856744243
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4082134317239291119}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9084526065911178893, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &4179467107279307999
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,9 +1601,10 @@ GameObject:
   - component: {fileID: 407449305463302181}
   - component: {fileID: 3836718773323161569}
   - component: {fileID: 4253195948435483627}
+  - component: {fileID: 205570375243809779}
   m_Layer: 7
   m_Name: pandore_LOD0.008
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1271,12 +1617,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4179467107279307999}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &3836718773323161569
 MeshFilter:
@@ -1328,6 +1674,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &205570375243809779
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4179467107279307999}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3056764769035141271, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &5116144316778053305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,9 +1707,10 @@ GameObject:
   - component: {fileID: 4536015864078074622}
   - component: {fileID: 558052622493678111}
   - component: {fileID: 7940498490197889156}
+  - component: {fileID: 6534450498636453001}
   m_Layer: 7
   m_Name: pandore_LOD0.023
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1354,12 +1723,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5116144316778053305}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &558052622493678111
 MeshFilter:
@@ -1411,6 +1780,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6534450498636453001
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5116144316778053305}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2026426440734858181, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &5186918866430051066
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,9 +1813,10 @@ GameObject:
   - component: {fileID: 9180105176758240255}
   - component: {fileID: 513077318939480337}
   - component: {fileID: 2617105145527731597}
+  - component: {fileID: 432939623944507467}
   m_Layer: 7
   m_Name: pandore_LOD0.003
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1437,12 +1829,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5186918866430051066}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &513077318939480337
 MeshFilter:
@@ -1494,6 +1886,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &432939623944507467
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186918866430051066}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4471588175769487643, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &5490904869606366298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1505,9 +1919,10 @@ GameObject:
   - component: {fileID: 3399231190143982560}
   - component: {fileID: 4463513881445033617}
   - component: {fileID: 3862070977226678943}
+  - component: {fileID: 9138679417533657226}
   m_Layer: 7
   m_Name: pandore_LOD0.024
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1520,12 +1935,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5490904869606366298}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &4463513881445033617
 MeshFilter:
@@ -1577,6 +1992,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9138679417533657226
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5490904869606366298}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9077331570015640637, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &6272475217024993707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,9 +2025,10 @@ GameObject:
   - component: {fileID: 8783323864297813365}
   - component: {fileID: 819734042083929362}
   - component: {fileID: 8690059980714761465}
+  - component: {fileID: 3382152652453890242}
   m_Layer: 7
   m_Name: pandore_LOD0.009
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1603,12 +2041,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6272475217024993707}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &819734042083929362
 MeshFilter:
@@ -1660,67 +2098,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &6767807531995249191
-GameObject:
+--- !u!64 &3382152652453890242
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8594615776711974383}
-  m_Layer: 7
-  m_Name: PandoreGroup
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8594615776711974383
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6767807531995249191}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: -0.032, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6427127679423045054}
-  - {fileID: 8092905373223846733}
-  - {fileID: 2680424789214683607}
-  - {fileID: 3184845537540468715}
-  - {fileID: 8266178962437997266}
-  - {fileID: 2396368821532429513}
-  - {fileID: 3399231190143982560}
-  - {fileID: 4536015864078074622}
-  - {fileID: 1008927916769959596}
-  - {fileID: 3437265613713054208}
-  - {fileID: 8622889719201079037}
-  - {fileID: 4876756010805502491}
-  - {fileID: 2854146028632185197}
-  - {fileID: 7700158688997870135}
-  - {fileID: 5465263909206864117}
-  - {fileID: 2905874175782709194}
-  - {fileID: 4485113615287424321}
-  - {fileID: 7315976848502764426}
-  - {fileID: 5802880457857611882}
-  - {fileID: 7452126320640719579}
-  - {fileID: 6528234231617377779}
-  - {fileID: 8783323864297813365}
-  - {fileID: 407449305463302181}
-  - {fileID: 8443609066425920264}
-  - {fileID: 4003949827791719349}
-  - {fileID: 5710725902335057414}
-  - {fileID: 6382158586821279315}
-  - {fileID: 9180105176758240255}
-  - {fileID: 3298534671236660374}
-  - {fileID: 3263815952089525480}
-  m_Father: {fileID: 8564759108343093722}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_GameObject: {fileID: 6272475217024993707}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3523129037714100972, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &7234988056697365806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,9 +2131,10 @@ GameObject:
   - component: {fileID: 2854146028632185197}
   - component: {fileID: 3977239439762388847}
   - component: {fileID: 4747841427781135423}
+  - component: {fileID: 1369395253817745077}
   m_Layer: 7
   m_Name: pandore_LOD0.018
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1747,12 +2147,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7234988056697365806}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &3977239439762388847
 MeshFilter:
@@ -1804,6 +2204,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1369395253817745077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7234988056697365806}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4703899513647092229, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &7244710702336516626
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,7 +2259,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8594615776711974383}
+  - {fileID: 7315976848502764426}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6352002157596335338
@@ -1927,9 +2349,10 @@ GameObject:
   - component: {fileID: 4003949827791719349}
   - component: {fileID: 7605098997733473461}
   - component: {fileID: 120603762014979416}
+  - component: {fileID: 1115480149843766926}
   m_Layer: 7
   m_Name: pandore_LOD0.006
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1942,12 +2365,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7499105116576334833}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &7605098997733473461
 MeshFilter:
@@ -1999,6 +2422,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1115480149843766926
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7499105116576334833}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8807418420305044586, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &7811111467607408022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2010,9 +2455,10 @@ GameObject:
   - component: {fileID: 3437265613713054208}
   - component: {fileID: 1843101635008973058}
   - component: {fileID: 5499147333898088141}
+  - component: {fileID: 867076468557781408}
   m_Layer: 7
   m_Name: pandore_LOD0.021
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2025,12 +2471,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7811111467607408022}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &1843101635008973058
 MeshFilter:
@@ -2082,6 +2528,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &867076468557781408
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7811111467607408022}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7481157700626874917, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &8034949341309108303
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,9 +2561,10 @@ GameObject:
   - component: {fileID: 2396368821532429513}
   - component: {fileID: 5178428002552702744}
   - component: {fileID: 6782202929106670575}
+  - component: {fileID: 8198982220058764841}
   m_Layer: 7
   m_Name: pandore_LOD0.025
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2108,12 +2577,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8034949341309108303}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &5178428002552702744
 MeshFilter:
@@ -2165,6 +2634,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8198982220058764841
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034949341309108303}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7965367345265404257, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &8192814416646486501
 GameObject:
   m_ObjectHideFlags: 0
@@ -2176,9 +2667,10 @@ GameObject:
   - component: {fileID: 4485113615287424321}
   - component: {fileID: 929186087026857786}
   - component: {fileID: 8868427827929005473}
+  - component: {fileID: 7594133248552709569}
   m_Layer: 7
   m_Name: pandore_LOD0.014
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2191,12 +2683,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8192814416646486501}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &929186087026857786
 MeshFilter:
@@ -2248,6 +2740,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7594133248552709569
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8192814416646486501}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4469753074849124878, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &8447892175477000272
 GameObject:
   m_ObjectHideFlags: 0
@@ -2259,9 +2773,10 @@ GameObject:
   - component: {fileID: 8622889719201079037}
   - component: {fileID: 7529513950690752796}
   - component: {fileID: 2920996018526174077}
+  - component: {fileID: 7201039908636787269}
   m_Layer: 7
   m_Name: pandore_LOD0.020
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2274,12 +2789,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8447892175477000272}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &7529513950690752796
 MeshFilter:
@@ -2331,6 +2846,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7201039908636787269
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8447892175477000272}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8030331751763859403, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &8467390491922437925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2342,9 +2879,10 @@ GameObject:
   - component: {fileID: 6382158586821279315}
   - component: {fileID: 5719775526809123071}
   - component: {fileID: 2410516490628235233}
+  - component: {fileID: 1412005163941098580}
   m_Layer: 7
   m_Name: pandore_LOD0.004
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2357,12 +2895,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8467390491922437925}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &5719775526809123071
 MeshFilter:
@@ -2414,6 +2952,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1412005163941098580
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8467390491922437925}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1590774540960626339, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &8518722748066788752
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,9 +2985,10 @@ GameObject:
   - component: {fileID: 5802880457857611882}
   - component: {fileID: 4470700035341405274}
   - component: {fileID: 2375968833964586125}
+  - component: {fileID: 2305387061500669186}
   m_Layer: 7
   m_Name: pandore_LOD0.012
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2440,12 +3001,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8518722748066788752}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &4470700035341405274
 MeshFilter:
@@ -2497,6 +3058,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2305387061500669186
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518722748066788752}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8245312685319525466, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &8803389647818941702
 GameObject:
   m_ObjectHideFlags: 0
@@ -2508,9 +3091,12 @@ GameObject:
   - component: {fileID: 7315976848502764426}
   - component: {fileID: 3644106265935840598}
   - component: {fileID: 2967449421596420170}
+  - component: {fileID: 6535891728170417960}
+  - component: {fileID: 6756127916933604564}
+  - component: {fileID: 589178308368133530}
   m_Layer: 7
-  m_Name: pandore_LOD0.013
-  m_TagString: Untagged
+  m_Name: UI_OBJ
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2523,12 +3109,41 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8803389647818941702}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalRotation: {x: 0.6532815, y: 0.27059805, z: 0.27059805, w: -0.6532815}
+  m_LocalPosition: {x: 0, y: -0.032, z: 0}
+  m_LocalScale: {x: 6.260233, y: 6.2602305, z: 6.2602315}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Children:
+  - {fileID: 6427127679423045054}
+  - {fileID: 8092905373223846733}
+  - {fileID: 2680424789214683607}
+  - {fileID: 3184845537540468715}
+  - {fileID: 8266178962437997266}
+  - {fileID: 2396368821532429513}
+  - {fileID: 3399231190143982560}
+  - {fileID: 4536015864078074622}
+  - {fileID: 1008927916769959596}
+  - {fileID: 3437265613713054208}
+  - {fileID: 8622889719201079037}
+  - {fileID: 4876756010805502491}
+  - {fileID: 2854146028632185197}
+  - {fileID: 7700158688997870135}
+  - {fileID: 5465263909206864117}
+  - {fileID: 2905874175782709194}
+  - {fileID: 4485113615287424321}
+  - {fileID: 5802880457857611882}
+  - {fileID: 7452126320640719579}
+  - {fileID: 6528234231617377779}
+  - {fileID: 8783323864297813365}
+  - {fileID: 407449305463302181}
+  - {fileID: 8443609066425920264}
+  - {fileID: 4003949827791719349}
+  - {fileID: 5710725902335057414}
+  - {fileID: 6382158586821279315}
+  - {fileID: 9180105176758240255}
+  - {fileID: 3298534671236660374}
+  - {fileID: 3263815952089525480}
+  m_Father: {fileID: 8564759108343093722}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &3644106265935840598
 MeshFilter:
@@ -2580,6 +3195,71 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6535891728170417960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8803389647818941702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f358e7a7fc68a04eaa27ecd934f0681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Magnitude: 0
+  rotSpeed: 0.1
+  Image: {fileID: 0}
+  rb: {fileID: 0}
+--- !u!54 &6756127916933604564
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8803389647818941702}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 4
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &589178308368133530
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8803389647818941702}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2530195556256589909, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}
 --- !u!1 &8854221960115634082
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,9 +3271,10 @@ GameObject:
   - component: {fileID: 3298534671236660374}
   - component: {fileID: 6944308287693085342}
   - component: {fileID: 4800739106450331713}
+  - component: {fileID: 2213118425407672237}
   m_Layer: 7
   m_Name: pandore_LOD0.002
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2606,12 +3287,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8854221960115634082}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1301157, y: 3.1301153, z: 3.1301155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8594615776711974383}
+  m_Father: {fileID: 7315976848502764426}
   m_LocalEulerAnglesHint: {x: -90, y: 135, z: 0}
 --- !u!33 &6944308287693085342
 MeshFilter:
@@ -2663,3 +3344,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2213118425407672237
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8854221960115634082}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2441987239987787991, guid: 2179c5c3cead31c4a92e279eebeeec01, type: 3}

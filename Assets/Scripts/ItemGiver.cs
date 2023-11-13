@@ -45,7 +45,7 @@ public class ItemGiver : MonoBehaviour
                         inventory.AddItem(itemToGive);
                         Destroy(gameObject);
 
-                        Transform item = objetDecouvert.transform.GetChild(0);
+                        Transform item = objetDecouvert.transform.GetChild(1);
                         item.GetComponent<Image>().sprite = itemToGive.itemSprite;
                         objetDecouvert.GetComponent<Animator>().SetTrigger("objet");
                     }

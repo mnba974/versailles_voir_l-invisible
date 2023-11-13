@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 738153779857869523}
   - component: {fileID: 4344541277943990604}
   - component: {fileID: 1935009238008555207}
-  m_Layer: 0
-  m_Name: mervure_LOD0
-  m_TagString: Untagged
+  m_Layer: 7
+  m_Name: UI_OBJ
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,12 +28,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3408957235004622686}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: 0.49999997, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalRotation: {x: -0.6066637, y: -0.36326188, z: -0.36326188, w: 0.6066637}
+  m_LocalPosition: {x: -0.004433561, y: 0, z: 0.004577875}
+  m_LocalScale: {x: 3.3346589, y: 3.3346589, z: 3.3346584}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 997672398929845838}
+  m_Father: {fileID: 8474352592152607724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &370047624717947799
 MeshFilter:
@@ -128,38 +128,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &3700291225265822294
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 997672398929845838}
-  m_Layer: 0
-  m_Name: mercure
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &997672398929845838
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3700291225265822294}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9699256, z: -0, w: 0.24340186}
-  m_LocalPosition: {x: -0.004433561, y: 0, z: 0.004577875}
-  m_LocalScale: {x: 0.033346586, y: 0.033346586, z: 0.033346586}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8677018263648917966}
-  m_Father: {fileID: 8474352592152607724}
-  m_LocalEulerAnglesHint: {x: 0, y: -151.825, z: 0}
 --- !u!1 &7924459404983301889
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,9 +137,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8474352592152607724}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mercure
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -189,6 +157,6 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 997672398929845838}
+  - {fileID: 8677018263648917966}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

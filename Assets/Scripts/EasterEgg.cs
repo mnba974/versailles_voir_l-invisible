@@ -8,17 +8,17 @@ public class EasterEgg : MonoBehaviour
     public GameObject easterEggButton;
     
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
-        
+        if (MainManager.Instance.items.Count >= 9)
+        {
+            easterEggButton.SetActive(true);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (easterEgg.discovered)
-        {
-            easterEggButton.SetActive(true);
-        }
+        
     }
 }

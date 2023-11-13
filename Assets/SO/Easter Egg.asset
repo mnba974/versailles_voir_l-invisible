@@ -15,9 +15,9 @@ MonoBehaviour:
   itemName: Easter Egg
   discovered: 0
   correctAnswer: 0
-  prefab: {fileID: 4438200048920207671, guid: f3f97755c0c96524cbd3d53f82b1abea, type: 3}
+  prefab: {fileID: 7000651976113508015, guid: 7bd8d5a8d8a5f254ca26e836ac35334f, type: 3}
   itemSprite: {fileID: 21300000, guid: d0971a73c4d6ef546b3a38b6ca8d86c9, type: 3}
   description: "Bravo ! Tu as d\xE9couvert tous les objets ; tu as maintenant acc\xE8s
     au mode\nPeindre sur les Statues"
-  UIScale: 10
+  UIScale: 1000
   statue: {fileID: 0}

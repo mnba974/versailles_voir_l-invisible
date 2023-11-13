@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Caduc\xE9 de Mercure"
   m_EditorClassIdentifier: 
   itemName: "Caduc\xE9 de Mercure"
-  discovered: 1
+  discovered: 0
   correctAnswer: 0
   prefab: {fileID: 2833307940020356661, guid: 19cb91107f6eb9c44b62ce4c280d8d77, type: 3}
   itemSprite: {fileID: 21300000, guid: 5c2751b0632dcc8418e318b9392e9edc, type: 3}
