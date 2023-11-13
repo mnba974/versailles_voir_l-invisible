@@ -77,6 +77,7 @@
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\Scripts\PlaceRotate.cs" />
     <Compile Include="Assets\Scripts\PandorAnim.cs" />
+    <Compile Include="Assets\Scripts\BommerMode.cs" />
     <Compile Include="Assets\Scripts\sphere_script.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Scripts\Switcher.cs" />
