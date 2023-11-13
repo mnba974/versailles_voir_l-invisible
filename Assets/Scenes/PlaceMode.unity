@@ -1954,6 +1954,7 @@ GameObject:
   - component: {fileID: 1019164663}
   - component: {fileID: 1019164662}
   - component: {fileID: 1019164664}
+  - component: {fileID: 1019164665}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2031,13 +2032,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019164661}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.6588975, y: -0.258879, z: 0.029128348, w: 0.7056821}
   m_LocalPosition: {x: 0.15330958, y: -0.7212641, z: 2.5734262}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 70.913, y: -90.408, z: -66.572}
 --- !u!114 &1019164664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2061,6 +2062,19 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!114 &1019164665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019164661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5976880c402d749bb3c53786f05430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraManager: {fileID: 0}
 --- !u!1 &1022984040
 GameObject:
   m_ObjectHideFlags: 0
