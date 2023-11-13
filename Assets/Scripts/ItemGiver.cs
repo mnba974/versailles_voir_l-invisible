@@ -27,7 +27,7 @@ public class ItemGiver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount == 0)
+        if (Input.touchCount == 0 || !itemToGive.correctAnswer)
         {
             return;
         }

@@ -919,6 +919,7 @@ MonoBehaviour:
   QAPanel: {fileID: 8437850659372563064}
   CAPanel: {fileID: 9043178885862297647}
   WAPanel: {fileID: 2192374955178384639}
+  item: {fileID: 11400000, guid: 5cf8f1952f8963c40be465738e648ca0, type: 2}
 --- !u!136 &8404493191825076462
 CapsuleCollider:
   m_ObjectHideFlags: 0

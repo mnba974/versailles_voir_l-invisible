@@ -6241,6 +6241,7 @@ MonoBehaviour:
   QAPanel: {fileID: 4890638339496344508}
   CAPanel: {fileID: 5456566802580836843}
   WAPanel: {fileID: 2930344412036291899}
+  item: {fileID: 11400000, guid: c4b96327b26169f468b9fbc5009d8274, type: 2}
 --- !u!4 &6666404262300564108 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5500725257294023075, guid: e5f8df0f16725ff48b75df64566781ca,

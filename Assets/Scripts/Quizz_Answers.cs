@@ -9,11 +9,14 @@ public class Quizz_Answers : MonoBehaviour
     public GameObject QAPanel;
     public GameObject CAPanel;
     public GameObject WAPanel;
+    public ItemSO item;
 
     public void CorrrectAnswer()
     {
         QAPanel.SetActive(false);
         CAPanel.SetActive(true);
+
+        item.correctAnswer = true;
 
         tiroirAnim.SetTrigger(animName);
     }
