@@ -16,7 +16,7 @@ public class RotateInUI : MonoBehaviour
     float initialScale;
     void Start()
     {
-        initialScale = gameObject.transform.localScale.x;
+        
         rb = GetComponent<Rigidbody>();
         if (gameObject.name != "UI_OBJ")
         {
@@ -24,7 +24,15 @@ public class RotateInUI : MonoBehaviour
             this.enabled = false;
             
         }
+        
         AutoTurn();
+        
+        if (gameObject.tag == "Statue")
+        {
+            transform.localScale = transform.localScale * 2;
+        }
+
+        initialScale = gameObject.transform.localScale.x;
 
 
     }
@@ -35,6 +43,8 @@ public class RotateInUI : MonoBehaviour
         {
             rb.angularVelocity = new Vector3(0, -10 * rotSpeed, 0f);
             rb.angularDrag = 0;
+            
+            
         }
     }
 
@@ -85,7 +95,7 @@ public class RotateInUI : MonoBehaviour
             {
                 Magnitude = (touch1.position - touch2.position).magnitude +1;
             }
-            if (touch1.phase == TouchPhase.Moved || touch2.phase == TouchPhase.Moved)
+            else if (touch1.phase == TouchPhase.Moved || touch2.phase == TouchPhase.Moved)
             {
                 float mag2 = (touch1.position - touch2.position).magnitude+1;
                 Vector3 newScale = gameObject.transform.localScale * mag2/Magnitude;
@@ -99,6 +109,7 @@ public class RotateInUI : MonoBehaviour
                 }
                 Magnitude = mag2;
             }
+            
         }
 
     }
