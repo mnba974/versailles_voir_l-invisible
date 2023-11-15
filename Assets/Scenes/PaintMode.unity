@@ -769,7 +769,7 @@ PrefabInstance:
     - target: {fileID: 770615374576157518, guid: 0870440e0cf372d4f9ad8525bfe05785,
         type: 3}
       propertyPath: m_text
-      value: Mode Sans Interaction
+      value: Mode Peinture
       objectReference: {fileID: 0}
     - target: {fileID: 1614820408237270264, guid: 0870440e0cf372d4f9ad8525bfe05785,
         type: 3}
@@ -871,15 +871,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1620076539951302944, guid: 0870440e0cf372d4f9ad8525bfe05785,
+        type: 3}
+      propertyPath: m_text
+      value: "Scannez Pandore et amusez vous \xE0 la peindre !\n\n\nN.B. : il faut
+        bien s'approcher des cartels, et parfois se mettre en mode paysage peut aider
+        la d\xE9tection"
+      objectReference: {fileID: 0}
     - target: {fileID: 2957358722661034439, guid: 0870440e0cf372d4f9ad8525bfe05785,
         type: 3}
       propertyPath: m_Name
-      value: Explications mode classique
+      value: Explications mode peinture
       objectReference: {fileID: 0}
     - target: {fileID: 2957358722661034439, guid: 0870440e0cf372d4f9ad8525bfe05785,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5216619100524008299, guid: 0870440e0cf372d4f9ad8525bfe05785,
         type: 3}
@@ -1818,7 +1825,6 @@ GameObject:
   - component: {fileID: 2005108164}
   - component: {fileID: 2005108163}
   - component: {fileID: 2005108162}
-  - component: {fileID: 2005108161}
   - component: {fileID: 2005108160}
   - component: {fileID: 2005108159}
   m_Layer: 0
@@ -1844,13 +1850,7 @@ MonoBehaviour:
   detect: {fileID: 0}
   text: {fileID: 0}
   ArPrefabs:
-  - {fileID: 272916006164739174, guid: b69b7ba752f8b6349b80030da15642e3, type: 3}
-  - {fileID: 6576064292232750325, guid: 0cd9f15921fa6ce4eb9befacd9b8de19, type: 3}
-  - {fileID: 8019167172821353516, guid: c2b44a343103fb448b4e4ea762c0c9a6, type: 3}
-  - {fileID: 4732778382164775869, guid: 19eedc55cdd5d2f4dbacfa02813d5a8e, type: 3}
-  - {fileID: 8711463308807739885, guid: 4f208ac94be403c4082f373700a511b2, type: 3}
-  - {fileID: 7244710702336516626, guid: 2bd5545970576d049929423304e08575, type: 3}
-  - {fileID: 7687853616507948573, guid: 4d1c13ff87d1aa44ea5f884e982abe82, type: 3}
+  - {fileID: 9168490217798710295, guid: 05a3497c1f146354f9ef830eb867c4bd, type: 3}
 --- !u!114 &2005108160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1864,21 +1864,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RaycastPrefab: {fileID: 0}
---- !u!114 &2005108161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2005108158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 4776765576899091622, guid: 3738bd65ede154463b2c35064b9e5fdb,
-    type: 3}
-  m_DetectionMode: 1
 --- !u!114 &2005108162
 MonoBehaviour:
   m_ObjectHideFlags: 0

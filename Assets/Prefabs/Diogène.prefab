@@ -1135,7 +1135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1796ec42d001eb408e71eaff6003c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 0.5
   maxBrightness: 1
   minBrightness: 0
 --- !u!114 &2749921211381539237

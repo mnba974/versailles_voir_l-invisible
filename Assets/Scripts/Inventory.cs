@@ -11,7 +11,7 @@ public class Inventory : MonoBehaviour
     public GameObject inventoryPanel;
     public GameObject backButton;
     public List<ItemSO> items;
-
+    public GameObject unlocked;
     private List<ItemSO> itemList = new List<ItemSO>();
 
     public ItemSO easterEgg;
@@ -30,7 +30,19 @@ public class Inventory : MonoBehaviour
                 AddItem(item);
             }
         }
-        
+        if (list.Count >= 9)
+        {
+            Transform item2 = content.transform.Find(easterEgg.itemName);
+            if (item2 != null)
+            {
+                item2.GetChild(0).GetComponent<Image>().sprite = easterEgg.itemSprite;
+                easterEgg.discovered = true;
+                
+            }
+
+            
+        }
+
     }
 
     // Update is called once per frame
@@ -50,9 +62,8 @@ public class Inventory : MonoBehaviour
         {
             item.GetChild(0).GetComponent<Image>().sprite = itemToAdd.itemSprite;
             itemToAdd.discovered = true;
-            itemList.Add(itemToAdd);
+            
         }
-
         if (list.Count >= 9)
         {
             Transform item2 = content.transform.Find(easterEgg.itemName);
@@ -60,11 +71,13 @@ public class Inventory : MonoBehaviour
             {
                 item2.GetChild(0).GetComponent<Image>().sprite = easterEgg.itemSprite;
                 easterEgg.discovered = true;
-                list.Add(itemToAdd.name);
+                unlocked.SetActive(true);
             }
 
-            ShowItem(easterEgg);
+
         }
+
+
     }
 
     public void ShowItem(ItemSO itemToShow)

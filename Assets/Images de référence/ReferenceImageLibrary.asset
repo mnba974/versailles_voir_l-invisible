@@ -71,9 +71,9 @@ MonoBehaviour:
       m_GuidLow: 5297854488618238995
       m_GuidHigh: 2729130891183199375
     m_SerializedTextureGuid:
-      m_GuidLow: 555342263773803762
-      m_GuidHigh: 3046333517063251768
-    m_Size: {x: 0.14427482, y: 0.14}
+      m_GuidLow: 3667331512982538612
+      m_GuidHigh: 7652706936965152394
+    m_Size: {x: 0.14427482, y: 0.109290145}
     m_SpecifySize: 1
     m_Name: Platon
     m_Texture: {fileID: 0}
@@ -131,9 +131,9 @@ MonoBehaviour:
       m_GuidLow: 5586928625433685111
       m_GuidHigh: 7169856485201267123
     m_SerializedTextureGuid:
-      m_GuidLow: 1037017656522540041
-      m_GuidHigh: 8548654756148488265
-    m_Size: {x: 0.2699739, y: 0.1}
+      m_GuidLow: 1991963328928845141
+      m_GuidHigh: 4654413167628945514
+    m_Size: {x: 0.21111572, y: 0.15687342}
     m_SpecifySize: 1
     m_Name: "Diog\xE8ne"
     m_Texture: {fileID: 0}
