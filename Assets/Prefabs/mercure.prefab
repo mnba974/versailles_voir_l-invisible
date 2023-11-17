@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 1654519246195929910}
   - component: {fileID: 3841367489583440880}
   m_Layer: 0
-  m_Name: Mercure
+  m_Name: mercure
   m_TagString: spawnable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15162,6 +15162,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.71
       objectReference: {fileID: 0}
+    - target: {fileID: 1277577358170825845, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544397069378764189, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544397069378764189, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 177
+      objectReference: {fileID: 0}
     - target: {fileID: 1811027971987630772, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_text
@@ -15236,6 +15251,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: 'A : un trident'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678217105678260359, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678217105678260359, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 5124340833800672025, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
@@ -15337,6 +15362,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.2458224
       objectReference: {fileID: 0}
+    - target: {fileID: 6587866552854487748, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -15347,10 +15377,62 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.71
       objectReference: {fileID: 0}
+    - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711194838312635605, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
       propertyPath: m_text
-      value: "C'\xE9tait la r\xE9ponse B\nB : des sandales et un casque ail\xE9s"
+      value: "C'\xE9tait la r\xE9ponse B :\nLes attributs d'Herm\xE8s sont des sandales
+        et un casque ail\xE9s"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 24.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872503980294082195, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_text
+      value: "Bravo !\n\nLes attributs d'Herm\xE8s sont bien des sandales et un casque
+        ail\xE9"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 28.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -48.61628
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -48.877357
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918463017257700817, guid: e5f8df0f16725ff48b75df64566781ca,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 28.6
       objectReference: {fileID: 0}
     - target: {fileID: 6962653130661008384, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}

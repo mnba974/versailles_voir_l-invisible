@@ -1418,7 +1418,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: "Le jour de la mort de quel autre personnage antique Diog\xE8ne est-il
-        mort (selon l\xE9gende suspecte) ?"
+        mort (selon une l\xE9gende suspecte) ?"
       objectReference: {fileID: 0}
     - target: {fileID: 5521620537350055363, guid: e5f8df0f16725ff48b75df64566781ca,
         type: 3}
