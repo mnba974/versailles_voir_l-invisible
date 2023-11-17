@@ -27,10 +27,7 @@ public class RotateInUI : MonoBehaviour
         
         AutoTurn();
         
-        if (gameObject.tag == "Statue")
-        {
-            transform.localScale = transform.localScale * 2;
-        }
+        
 
         initialScale = gameObject.transform.localScale.x;
 
